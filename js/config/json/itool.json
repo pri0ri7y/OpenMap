@@ -1,0 +1,3366 @@
+﻿{
+  "item": "itool",
+  "fclist": [
+    "P_TEMPORARY_RETAINING_WALL",
+    "P_GUIDE_WALL",
+    "P_UTILITY",
+    "P_BORELOG",
+    "P_CHAINAGE",
+    "P_TUNNEL_CENTER_LINE",
+    "P_TUNNEL_EDGE_LINE",
+    "P_EXCAVATION",
+    "E_EXCAVATION",
+    "P_CAPPING_BEAM"
+  ],
+  "tabs": {
+    "P_TEMPORARY_RETAINING_WALL": {
+      "General": [
+        "JOB_CODE",
+        "PROJECT_TITLE",
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "LENGTH_M",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "TYPE_OF_BOREHOLE",
+        "ALIGNMENT_REVISION_NO",
+        "ID"
+      ],
+      "ROW": [
+        "ROW_STATUS",
+        "PLANNED_ROW_DATE",
+        "ACTUAL_ROW_DATE",
+        "CONSTRAINS_TYPE_FOR_ROW"
+      ],
+      "Pile Details": [
+        "TYPE_OF_RETAINING_WALL",
+        "GROUND_LEVEL",
+        "TOTAL_NO_OF_PILES",
+        "PILE_ID",
+        "PILE_TYPE",
+        "PILE_LENGTH_M",
+        "PILE_DIAMETER_MM",
+        "PILE_LOCATION",
+        "GRID_NUMBER"
+      ],
+      "GFC": [
+        "GFC_STATUS",
+        "GFC_DATE",
+        "GFC_CONSTRAIN",
+        "REMARKS_GFC_STATUS",
+        "NET_FRONT_STATUS",
+        "NET_FRONT_DATE"
+      ],
+      "Quantitites": [
+        "THEORETICAL_CONCRETE_GRADE",
+        "THEORETICAL_CONCRETE_QTY_CUM",
+        "ACTUAL_CONCRETE_QTY_CUM",
+        "THEORETICAL_REINFORCEMENT_QTY_MT",
+        "ACTUAL_REINFORCEMENT_QTY_MT",
+        "TERMINATED_DEPTH_M",
+        "DEPTH_PENETRATED_IN_SOIL_M",
+        "DEPTH_PENETRATED_IN_WEATHERED_ROCK_M",
+        "DEPTH_PENETRATED_IN_HARD_ROCK_M",
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Schedule": [
+        "RIG_NAME",
+        "ACTIVITY_ID",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "REMARKS_SCHEDULE"
+      ],
+      "Status": [
+        "GUIDEWALL_INSTALLATION_STATUS"
+      ]
+    },
+    "P_GUIDE_WALL": {
+      "General": [
+        "JOB_CODE",
+        "PROJECT_TITLE",
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "LENGTH_M",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "TYPE_OF_BOREHOLE",
+        "ALIGNMENT_REVISION_NO",
+        "ID"
+      ],
+      "Structural Details": [
+        "GROUND_LEVEL",
+        "TOC_LEVEL",
+        "WIDTH",
+        "LENGTH",
+        "DEPTH",
+        "STRUCTURE_WIDTH_M",
+        "STRUCTURE_LENGTH_M",
+        "STRUCTURE_DEPTH_M"
+      ],
+      "GFC": [
+        "GFC_STATUS",
+        "GFC_DATE",
+        "GFC_CONSTRAIN",
+        "REMARKS_GFC_STATUS",
+        "NET_FRONT_STATUS",
+        "NET_FRONT_DATE"
+      ],
+      "Quantities": [
+        "THEORETICAL_CONCRETE_GRADE",
+        "THEORETICAL_CONCRETE_QTY_CUM",
+        "ACTUAL_CONCRETE_QTY_CUM",
+        "THEORETICAL_REINFORCEMENT_QTY_MT",
+        "ACTUAL_REINFORCEMENT_QTY_MT",
+        "TERMINATED_DEPTH_M",
+        "DEPTH_PENETRATED_IN_SOIL_M",
+        "DEPTH_PENETRATED_IN_WEATHERED_ROCK_M",
+        "DEPTH_PENETRATED_IN_HARD_ROCK_M",
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Schedule": [
+        "RIG_NAME",
+        "ACTIVITY_ID",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "REMARKS_SCHEDULE"
+      ],
+      "Construction Status": [
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS"
+      ]
+    },
+    "P_UTILITY": {
+      "Clash Details": [
+        "CLASH_WITH_STRUCTURE",
+        "DESIGN_AFFECTED",
+        "ACTION_PLANNED_FOR_DESIGN",
+        "DESIGN_DRAWING_STATUS",
+        "UTILITY_DRAWING_STATUS",
+        "DRAWING_NUMBER"
+      ],
+      "General": [
+        "JOB_CODE",
+        "PROJECT_TITLE",
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "LENGTH_M",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "TYPE_OF_BOREHOLE",
+        "ALIGNMENT_REVISION_NO",
+        "ID"
+      ],
+      "Probing Details": [
+        "FRONT_TO_DO_PROBING_STATUS",
+        "FRONT_TO_DO_PROBING_DATE",
+        "PLANNED_DATE_OF_PROBING",
+        "PROBING_STATUS",
+        "ACTUAL_DATE_OF_PROBING",
+        "CONSTRAINS_TO_DO_PROBING"
+      ],
+      "Utility details": [
+        "UTILITY_DESCRIPTION",
+        "UTILITY_TYPE",
+        "UTILITY_IDENTIFICATION_DETAILS",
+        "DEPTH_BELOW_GL_M",
+        "DIRECTION"
+      ],
+      "Submission status": [
+        "UTILITY_DETAILS_SUBMITTED_TO",
+        "UTILITY_DETAILS_SUBMITTED_TO_CLIENT_ON",
+        "UTILITY_DETAILS_SUBMISSION_STATUS",
+        "TRANSMITTAL_NO",
+        "PERMISSION_OBTAINED_FOR_SHIFTING_OF_UTILITY_ON"
+      ],
+      "Shifting Status": [
+        "UTILITY_OWNERS_REQUIREMENT",
+        "CONSTRAINS_TO_SHIFT_UTILITY",
+        "PLANNED_UTILITY_SHIFTING_START_DATE",
+        "PLANNED__UTILITY_SHIFTING_FINISH_DATE",
+        "ACTUAL_UTILITY_SHIFTING_START_DATE",
+        "ACTUAL_UTILITY_SHIFTING_FINISH_DATE",
+        "UTILITY_CLEARANCE_STATUS",
+        "REMARKS_STATUS"
+      ]
+    },
+    "P_BORELOG": {
+      "General": [
+        "JOB_CODE",
+        "PROJECT_TITLE",
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "LENGTH_M",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "TYPE_OF_BOREHOLE",
+        "ALIGNMENT_REVISION_NO",
+        "ID"
+      ],
+      "Bore Log Details": [
+        "BH_CHAINAGE_M",
+        "BH_EASTING",
+        "BH_NORTHING",
+        "REPRESENTATIVE_BOREHOLE",
+        "PROXIMITY_OF_BOREHOLE_TO",
+        "RL",
+        "BH_DIAMETER_M",
+        "BH_DEPTH_M",
+        "PIEZOMETER_INSTALLED_IN_BH",
+        "WATER_LEVEL_M",
+        "TOTAL_DEPTH_OF_SOIL",
+        "DEPTH_OF_ROCK",
+        "CORE_SAMPLE_PHOTOS"
+      ],
+      "Utility Trial Pit Status": [
+        "PLANNED_TRIAL_PIT_DATE",
+        "ACTUAL_TRIAL_PIT_DATE",
+        "TRIAL_PIT_STATUS",
+        "PRESENCE_OF_UTILITY",
+        "UTILITY_DESCRIPTION",
+        "REMARKS_ACTION_TAKEN"
+      ],
+      "BH Status": [
+        "FRONT_AVAILABLE_DATE",
+        "FRONT_STATUS",
+        "PLANNED_BH_COMPLETION_DATE",
+        "ACTUAL_BH_COMPLETION_DATE",
+        "BH_COMPLETION_STATUS",
+        "BH_CONSTRAINT",
+        "REMARKS_STATUS",
+        "LAB_TEST_RESULTS_RECEIVED"
+      ],
+      "Schedule": [
+        "ACTIVITY_ID",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_FINISH_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_FINISH_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "REMARKS_SCHEDULE"
+      ]
+    },
+    "P_CHAINAGE": {
+      "General": [
+        "JOB_CODE",
+        "PROJECT_TITLE",
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "LENGTH_M",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "TYPE_OF_BOREHOLE",
+        "ALIGNMENT_REVISION_NO",
+        "ID"
+      ]
+    },
+    "P_TUNNEL_CENTER_LINE": {
+      "General": [
+        "JOB_CODE",
+        "PROJECT_TITLE",
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "LENGTH_M",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "TYPE_OF_BOREHOLE",
+        "ALIGNMENT_REVISION_NO",
+        "ID"
+      ]
+    },
+    "P_TUNNEL_EDGE_LINE": {
+      "General": [
+        "JOB_CODE",
+        "PROJECT_TITLE",
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "LENGTH_M",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "TYPE_OF_BOREHOLE",
+        "ALIGNMENT_REVISION_NO",
+        "ID"
+      ]
+    },
+    "P_EXCAVATION": {
+      "General": [
+        "JOB_CODE",
+        "PROJECT_TITLE",
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "LENGTH_M",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "TYPE_OF_BOREHOLE",
+        "ALIGNMENT_REVISION_NO",
+        "ID"
+      ],
+      "Structure Details": [
+        "TOC_LEVEL",
+        "WIDTH",
+        "LENGTH",
+        "DEPTH",
+        "STRUCTURE_WIDTH_M",
+        "STRUCTURE_LENGTH_M",
+        "STRUCTURE_DEPTH_M"
+      ],
+      "Excavation Details": [
+        "EXCAVATION_WIDTH_M",
+        "EXCAVATION_LENGTH_M",
+        "GROUND_LEVEL",
+        "FORMATION_LEVEL",
+        "SCOPE_EXCAVATION",
+        "FROM_GRID",
+        "TO_GRID"
+      ],
+      "Quantities": [
+        "THEORETICAL_CONCRETE_GRADE",
+        "THEORETICAL_CONCRETE_QTY_CUM",
+        "ACTUAL_CONCRETE_QTY_CUM",
+        "THEORETICAL_REINFORCEMENT_QTY_MT",
+        "ACTUAL_REINFORCEMENT_QTY_MT",
+        "TERMINATED_DEPTH_M",
+        "DEPTH_PENETRATED_IN_SOIL_M",
+        "DEPTH_PENETRATED_IN_WEATHERED_ROCK_M",
+        "DEPTH_PENETRATED_IN_HARD_ROCK_M",
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Schedule": [
+        "RIG_NAME",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "REMARKS_SCHEDULE",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "Construction Status": [
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS"
+      ]
+    },
+    "E_EXCAVATION": {
+      "General": [
+        "JOB_CODE",
+        "PROJECT_TITLE",
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "LENGTH_M",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "TYPE_OF_BOREHOLE",
+        "ALIGNMENT_REVISION_NO",
+        "ID"
+      ],
+      "Structure Details": [
+        "TOC_LEVEL",
+        "WIDTH",
+        "LENGTH",
+        "DEPTH",
+        "STRUCTURE_WIDTH_M",
+        "STRUCTURE_LENGTH_M",
+        "STRUCTURE_DEPTH_M"
+      ],
+      "Excavation Details": [
+        "EXCAVATION_WIDTH_M",
+        "EXCAVATION_LENGTH_M",
+        "GROUND_LEVEL",
+        "FORMATION_LEVEL",
+        "SCOPE_EXCAVATION",
+        "FROM_GRID",
+        "TO_GRID"
+      ],
+      "Quantities": [
+        "THEORETICAL_CONCRETE_GRADE",
+        "THEORETICAL_CONCRETE_QTY_CUM",
+        "ACTUAL_CONCRETE_QTY_CUM",
+        "THEORETICAL_REINFORCEMENT_QTY_MT",
+        "ACTUAL_REINFORCEMENT_QTY_MT",
+        "TERMINATED_DEPTH_M",
+        "DEPTH_PENETRATED_IN_SOIL_M",
+        "DEPTH_PENETRATED_IN_WEATHERED_ROCK_M",
+        "DEPTH_PENETRATED_IN_HARD_ROCK_M",
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Schedule": [
+        "RIG_NAME",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "REMARKS_SCHEDULE",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "Construction Status": [
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS"
+      ]
+    },
+    "P_CAPPING_BEAM": {
+      "General": [
+        "JOB_CODE",
+        "PROJECT_TITLE",
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "LENGTH_M",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "TYPE_OF_BOREHOLE",
+        "ALIGNMENT_REVISION_NO",
+        "ID"
+      ],
+      "Structural Details": [
+        "GROUND_LEVEL",
+        "TOC_LEVEL",
+        "WIDTH",
+        "LENGTH",
+        "DEPTH",
+        "STRUCTURE_WIDTH_M",
+        "STRUCTURE_LENGTH_M",
+        "STRUCTURE_DEPTH_M"
+      ],
+      "GFC": [
+        "GFC_STATUS",
+        "GFC_DATE",
+        "GFC_CONSTRAIN",
+        "REMARKS_GFC_STATUS",
+        "NET_FRONT_STATUS",
+        "NET_FRONT_DATE"
+      ],
+      "Quantities": [
+        "THEORETICAL_CONCRETE_GRADE",
+        "THEORETICAL_CONCRETE_QTY_CUM",
+        "ACTUAL_CONCRETE_QTY_CUM",
+        "THEORETICAL_REINFORCEMENT_QTY_MT",
+        "ACTUAL_REINFORCEMENT_QTY_MT",
+        "TERMINATED_DEPTH_M",
+        "DEPTH_PENETRATED_IN_SOIL_M",
+        "DEPTH_PENETRATED_IN_WEATHERED_ROCK_M",
+        "DEPTH_PENETRATED_IN_HARD_ROCK_M",
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Schedule": [
+        "RIG_NAME",
+        "ACTIVITY_ID",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "REMARKS_SCHEDULE"
+      ],
+      "Construction status": [
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "CASTED_LENGTH"
+      ]
+    }
+  },
+  "editableFields": {
+    "P_TUNNEL_CENTER_LINE": {
+      "CP": [],
+      "SP": [],
+      "Execution": [],
+      "Design": [
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "LENGTH_M",
+        "ALIGNMENT_REVISION_NO"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": []
+    },
+    "P_TUNNEL_EDGE_LINE": {
+      "CP": [],
+      "SP": [],
+      "Execution": [],
+      "Design": [
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "ALIGNMENT_REVISION_NO"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": []
+    },
+    "P_CHAINAGE": {
+      "CP": [],
+      "SP": [],
+      "Execution": [],
+      "Design": [
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TUNNEL_LINE",
+        "CHAINAGE_M",
+        "EASTING",
+        "NORTHING",
+        "ALIGNMENT_REVISION_NO"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": []
+    },
+    "P_BORELOG": {
+      "CP": [
+        "PLANNED_TRIAL_PIT_DATE",
+        "ACTUAL_TRIAL_PIT_DATE",
+        "TRIAL_PIT_STATUS",
+        "PRESENCE_OF_UTILITY",
+        "UTILITY_DESCRIPTION",
+        "REMARKS_ACTION_TAKEN",
+        "FRONT_AVAILABLE_DATE",
+        "FRONT_STATUS",
+        "PLANNED_BH_COMPLETION_DATE",
+        "ACTUAL_BH_COMPLETION_DATE",
+        "BH_COMPLETION_STATUS",
+        "BH_CONSTRAINT",
+        "REMARKS_STATUS",
+        "LAB_TEST_RESULTS_RECEIVED",
+        "ACTIVITY_ID",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_FINISH_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_FINISH_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "REMARKS_SCHEDULE"
+      ],
+      "SP": [
+        "PLANNED_TRIAL_PIT_DATE",
+        "ACTUAL_TRIAL_PIT_DATE",
+        "TRIAL_PIT_STATUS",
+        "PRESENCE_OF_UTILITY",
+        "UTILITY_DESCRIPTION",
+        "REMARKS_ACTION_TAKEN",
+        "FRONT_AVAILABLE_DATE",
+        "FRONT_STATUS",
+        "PLANNED_BH_COMPLETION_DATE",
+        "ACTUAL_BH_COMPLETION_DATE",
+        "BH_COMPLETION_STATUS",
+        "BH_CONSTRAINT",
+        "REMARKS_STATUS",
+        "LAB_TEST_RESULTS_RECEIVED",
+        "PLANNED_START_DATE",
+        "PLANNED_FINISH_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_FINISH_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "REMARKS_SCHEDULE",
+        "PLANNED_START_DATE",
+        "PLANNED_FINISH_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_FINISH_DATE"
+      ],
+      "Execution": [
+        "ACTUAL_TRIAL_PIT_DATE",
+        "TRIAL_PIT_STATUS",
+        "PRESENCE_OF_UTILITY",
+        "UTILITY_DESCRIPTION",
+        "REMARKS_ACTION_TAKEN",
+        "FRONT_AVAILABLE_DATE",
+        "FRONT_STATUS",
+        "ACTUAL_BH_COMPLETION_DATE",
+        "BH_COMPLETION_STATUS",
+        "BH_CONSTRAINT",
+        "REMARKS_STATUS"
+      ],
+      "Design": [
+        "FROM_STATION",
+        "TO_STATION",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "TYPE_OF_BOREHOLE",
+        "BH_CHAINAGE_M",
+        "BH_EASTING",
+        "BH_NORTHING",
+        "REPRESENTATIVE_BOREHOLE",
+        "PIEZOMETER_INSTALLED_IN_BH",
+        "RL",
+        "BH_DIAMETER_M",
+        "BH_DEPTH_M",
+        "PIEZOMETER_INSTALLED_IN_BH",
+        "WATER_LEVEL_M",
+        "TOTAL_DEPTH_OF_SOIL",
+        "DEPTH_OF_ROCK",
+        "CORE_SAMPLE_PHOTOS",
+        "PRESENCE_OF_UTILITY",
+        "UTILITY_DESCRIPTION",
+        "REMARKS_ACTION_TAKEN",
+        "FRONT_AVAILABLE_DATE",
+        "FRONT_STATUS",
+        "PLANNED_BH_COMPLETION_DATE",
+        "BH_COMPLETION_STATUS",
+        "LAB_TEST_RESULTS_RECEIVED",
+        "PROXIMITY_OF_BOREHOLE_TO",
+        "PLANNED_START_DATE",
+        "PLANNED_FINISH_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_FINISH_DATE"
+      ],
+      "BU": [
+        "ACTIVITY_ID",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_FINISH_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_FINISH_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "REMARKS_SCHEDULE"
+      ],
+      "CMPC": [],
+      "PMCM": [
+        "ACTIVITY_ID",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_FINISH_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_FINISH_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "REMARKS_SCHEDULE"
+      ]
+    },
+    "P_UTILITY": {
+      "CP": [
+        "FRONT_TO_DO_PROBING_STATUS",
+        "FRONT_TO_DO_PROBING_DATE",
+        "PLANNED_DATE_OF_PROBING",
+        "PROBING_STATUS",
+        "ACTUAL_DATE_OF_PROBING",
+        "CONSTRAINS_TO_DO_PROBING",
+        "UTILITY_DESCRIPTION",
+        "UTILITY_TYPE",
+        "UTILITY_IDENTIFICATION_DETAILS",
+        "DEPTH_BELOW_GL_M",
+        "DIRECTION",
+        "UTILITY_DETAILS_SUBMITTED_TO",
+        "UTILITY_DETAILS_SUBMITTED_TO_CLIENT_ON",
+        "UTILITY_DETAILS_SUBMISSION_STATUS",
+        "TRANSMITTAL_NO",
+        "PERMISSION_OBTAINED_FOR_SHIFTING_OF_UTILITY_ON",
+        "UTILITY_OWNERS_REQUIREMENT",
+        "CONSTRAINS_TO_SHIFT_UTILITY",
+        "PLANNED_UTILITY_SHIFTING_START_DATE",
+        "PLANNED__UTILITY_SHIFTING_FINISH_DATE",
+        "ACTUAL_UTILITY_SHIFTING_START_DATE",
+        "ACTUAL_UTILITY_SHIFTING_FINISH_DATE",
+        "UTILITY_CLEARANCE_STATUS",
+        "REMARKS_STATUS"
+      ],
+      "SP": [
+        "FRONT_TO_DO_PROBING_STATUS",
+        "FRONT_TO_DO_PROBING_DATE",
+        "PLANNED_DATE_OF_PROBING",
+        "PROBING_STATUS",
+        "ACTUAL_DATE_OF_PROBING",
+        "CONSTRAINS_TO_DO_PROBING",
+        "UTILITY_DESCRIPTION",
+        "UTILITY_TYPE",
+        "UTILITY_IDENTIFICATION_DETAILS",
+        "DEPTH_BELOW_GL_M",
+        "DIRECTION",
+        "UTILITY_DETAILS_SUBMITTED_TO",
+        "UTILITY_DETAILS_SUBMITTED_TO_CLIENT_ON",
+        "UTILITY_DETAILS_SUBMISSION_STATUS",
+        "TRANSMITTAL_NO",
+        "PERMISSION_OBTAINED_FOR_SHIFTING_OF_UTILITY_ON",
+        "UTILITY_OWNERS_REQUIREMENT",
+        "CONSTRAINS_TO_SHIFT_UTILITY",
+        "PLANNED_UTILITY_SHIFTING_START_DATE",
+        "ACTUAL_UTILITY_SHIFTING_START_DATE",
+        "ACTUAL_UTILITY_SHIFTING_FINISH_DATE",
+        "UTILITY_CLEARANCE_STATUS",
+        "REMARKS_STATUS"
+      ],
+      "Execution": [
+        "FRONT_TO_DO_PROBING_STATUS",
+        "FRONT_TO_DO_PROBING_DATE",
+        "PLANNED_DATE_OF_PROBING",
+        "PROBING_STATUS",
+        "ACTUAL_DATE_OF_PROBING",
+        "CONSTRAINS_TO_DO_PROBING",
+        "UTILITY_DESCRIPTION",
+        "UTILITY_TYPE",
+        "UTILITY_IDENTIFICATION_DETAILS",
+        "DEPTH_BELOW_GL_M",
+        "DIRECTION",
+        "CONSTRAINS_TO_SHIFT_UTILITY",
+        "ACTUAL_UTILITY_SHIFTING_START_DATE",
+        "ACTUAL_UTILITY_SHIFTING_FINISH_DATE",
+        "UTILITY_CLEARANCE_STATUS",
+        "REMARKS_STATUS"
+      ],
+      "Design": [
+        "CLASH_WITH_STRUCTURE",
+        "DESIGN_AFFECTED",
+        "ACTION_PLANNED_FOR_DESIGN",
+        "DESIGN_DRAWING_STATUS",
+        "UTILITY_DRAWING_STATUS",
+        "DRAWING_NUMBER",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "FRONT_TO_DO_PROBING_STATUS",
+        "FRONT_TO_DO_PROBING_DATE",
+        "PLANNED_DATE_OF_PROBING",
+        "PROBING_STATUS",
+        "ACTUAL_DATE_OF_PROBING",
+        "CONSTRAINS_TO_DO_PROBING",
+        "UTILITY_DESCRIPTION",
+        "UTILITY_TYPE",
+        "UTILITY_IDENTIFICATION_DETAILS",
+        "DEPTH_BELOW_GL_M",
+        "DIRECTION",
+        "UTILITY_DETAILS_SUBMITTED_TO",
+        "UTILITY_DETAILS_SUBMITTED_TO_CLIENT_ON",
+        "UTILITY_DETAILS_SUBMISSION_STATUS",
+        "TRANSMITTAL_NO",
+        "PERMISSION_OBTAINED_FOR_SHIFTING_OF_UTILITY_ON",
+        "UTILITY_OWNERS_REQUIREMENT",
+        "CONSTRAINS_TO_SHIFT_UTILITY",
+        "UTILITY_CLEARANCE_STATUS",
+        "REMARKS_STATUS"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": []
+    },
+    "P_TEMPORARY_RETAINING_WALL": {
+      "CP": [
+        "ROW_STATUS",
+        "PLANNED_ROW_DATE",
+        "ACTUAL_ROW_DATE",
+        "CONSTRAINS_TYPE_FOR_ROW",
+        "ACTUAL_CONCRETE_QTY_CUM",
+        "ACTUAL_REINFORCEMENT_QTY_MT",
+        "TERMINATED_DEPTH_M",
+        "DEPTH_PENETRATED_IN_SOIL_M",
+        "DEPTH_PENETRATED_IN_WEATHERED_ROCK_M",
+        "DEPTH_PENETRATED_IN_HARD_ROCK_M",
+        "RIG_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "TOTAL_NO_OF_PILES_COMPLETED",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "GUIDEWALL_INSTALLATION_STATUS"
+      ],
+      "SP": [
+        "ROW_STATUS",
+        "PLANNED_ROW_DATE",
+        "ACTUAL_ROW_DATE",
+        "CONSTRAINS_TYPE_FOR_ROW",
+        "ACTUAL_CONCRETE_QTY_CUM",
+        "ACTUAL_REINFORCEMENT_QTY_MT",
+        "TERMINATED_DEPTH_M",
+        "DEPTH_PENETRATED_IN_SOIL_M",
+        "DEPTH_PENETRATED_IN_WEATHERED_ROCK_M",
+        "DEPTH_PENETRATED_IN_HARD_ROCK_M",
+        "RIG_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "TOTAL_NO_OF_PILES_COMPLETED",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "PILE_LOCATION"
+      ],
+      "Execution": [
+        "ROW_STATUS",
+        "ACTUAL_ROW_DATE",
+        "CONSTRAINS_TYPE_FOR_ROW",
+        "ACTUAL_CONCRETE_QTY_CUM",
+        "ACTUAL_REINFORCEMENT_QTY_MT",
+        "TERMINATED_DEPTH_M",
+        "DEPTH_PENETRATED_IN_SOIL_M",
+        "DEPTH_PENETRATED_IN_WEATHERED_ROCK_M",
+        "DEPTH_PENETRATED_IN_HARD_ROCK_M",
+        "RIG_NAME",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "TOTAL_NO_OF_PILES_COMPLETED",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "PILE_LOCATION",
+        "NET_FRONT_STATUS",
+        "NET_FRONT_DATE",
+        "GUIDEWALL_INSTALLATION_STATUS"
+      ],
+      "Design": [
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "CHAINAGE_M",
+        "GROUND_LEVEL",
+        "TOTAL_NO_OF_PILES",
+        "PILE_ID",
+        "PILE_TYPE",
+        "CONCRETE_GRADE",
+        "PILE_LENGTH_M",
+        "PILE_DIAMETER_MM",
+        "GFC_STATUS",
+        "GFC_DATE",
+        "GFC_CONSTRAIN",
+        "REMARKS_GFC_STATUS",
+        "NET_FRONT_STATUS",
+        "NET_FRONT_DATE",
+        "THEORETICAL_CONCRETE_QTY_CUM",
+        "THEORETICAL_REINFORCEMENT_QTY_MT",
+        "TYPE_OF_RETAINING_WALL"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": []
+    },
+    "P_CAPPING_BEAM": {
+      "CP": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT",
+        "ACTIVITY_ID",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "REMARKS_SCHEDULE",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "CASTED_LENGTH"
+      ],
+      "SP": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "REMARKS_SCHEDULE",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "CASTED_LENGTH"
+      ],
+      "Execution": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "ACTUAL_DURATION_DAYS",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "CASTED_LENGTH"
+      ],
+      "Design": [
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "CHAINAGE_M",
+        "GROUND_LEVEL",
+        "TOC_LEVEL",
+        "WIDTH",
+        "LENGTH",
+        "DEPTH",
+        "GFC_STATUS",
+        "GFC_DATE",
+        "GFC_CONSTRAIN",
+        "REMARKS_GFC_STATUS",
+        "THEORETICAL_CONCRETE_GRADE",
+        "THEORETICAL_CONCRETE_QTY_CUM"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": []
+    },
+    "P_GUIDE_WALL": {
+      "CP": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT",
+        "ACTIVITY_ID",
+        "ACTIVITY_NAME",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "REMARKS_SCHEDULE",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS"
+      ],
+      "SP": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "FORECAST_START_DATE",
+        "FORECAST_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "PLANNED_DURATION_DAYS",
+        "ACTUAL_DURATION_DAYS",
+        "REMARKS_SCHEDULE",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS"
+      ],
+      "Execution": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "ACTUAL_DURATION_DAYS",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS"
+      ],
+      "Design": [
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "CHAINAGE_M",
+        "TYPE_OF_RETAINING_WALL",
+        "GROUND_LEVEL",
+        "TOC_LEVEL",
+        "WIDTH",
+        "LENGTH",
+        "DEPTH",
+        "GFC_STATUS",
+        "GFC_DATE",
+        "GFC_CONSTRAIN",
+        "REMARKS_GFC_STATUS",
+        "THEORETICAL_CONCRETE_GRADE",
+        "THEORETICAL_CONCRETE_QTY_CUM"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": []
+    },
+    "P_EXCAVATION": {
+      "CP": [
+        "STRUCTURE_WIDTH_M",
+        "STRUCTURE_LENGTH_M",
+        "STRUCTURE_DEPTH_M",
+        "EXCAVATION_WIDTH_M",
+        "EXCAVATION_LENGTH_M",
+        "FORMATION_LEVEL",
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "SCOPE_EXCAVATION",
+        "FROM_GRID",
+        "TO_GRID",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "SP": [
+        "STRUCTURE_WIDTH_M",
+        "STRUCTURE_LENGTH_M",
+        "STRUCTURE_DEPTH_M",
+        "EXCAVATION_WIDTH_M",
+        "EXCAVATION_LENGTH_M",
+        "FORMATION_LEVEL",
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "SCOPE_EXCAVATION",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "Execution": [
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "Design": [
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "CHAINAGE_M",
+        "STRUCTURE_WIDTH_M",
+        "STRUCTURE_LENGTH_M",
+        "STRUCTURE_DEPTH_M",
+        "EXCAVATION_WIDTH_M",
+        "EXCAVATION_LENGTH_M",
+        "FORMATION_LEVEL",
+        "SCOPE_EXCAVATION",
+        "FROM_GRID",
+        "TO_GRID"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": []
+    },
+    "E_EXCAVATION": {
+      "CP": [
+        "STRUCTURE_WIDTH_M",
+        "STRUCTURE_LENGTH_M",
+        "STRUCTURE_DEPTH_M",
+        "EXCAVATION_WIDTH_M",
+        "EXCAVATION_LENGTH_M",
+        "FORMATION_LEVEL",
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "SCOPE_EXCAVATION",
+        "FROM_GRID",
+        "TO_GRID",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "SP": [
+        "STRUCTURE_WIDTH_M",
+        "STRUCTURE_LENGTH_M",
+        "STRUCTURE_DEPTH_M",
+        "EXCAVATION_WIDTH_M",
+        "EXCAVATION_LENGTH_M",
+        "FORMATION_LEVEL",
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "SCOPE_EXCAVATION",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "Execution": [
+        "EXCAVATED_LEVEL",
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "CONSTRUCTION_STATUS",
+        "CONSTRAIN_FOR_CONSTRUCTION_DELAY",
+        "REMARKS_CONSTRUCTION_STATUS",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "Design": [
+        "FROM_STATION",
+        "TO_STATION",
+        "STATION_NAME",
+        "LINK",
+        "REMARKS",
+        "WORK_PACKAGE",
+        "LOCATION",
+        "CHAINAGE_M",
+        "STRUCTURE_WIDTH_M",
+        "STRUCTURE_LENGTH_M",
+        "STRUCTURE_DEPTH_M",
+        "EXCAVATION_WIDTH_M",
+        "EXCAVATION_LENGTH_M",
+        "FORMATION_LEVEL",
+        "SCOPE_EXCAVATION",
+        "FROM_GRID",
+        "TO_GRID"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": []
+    }
+  },
+  "fc_st": {
+    "P_CAPPING_BEAM": {
+      "TOTAL_ACTUAL_CONCRETE_QTY_CUM": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM_P_CAPPING_BEAM",
+        "ST_P_CAPPING_BEAM_TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "STATION_NAME",
+        "Actual Concrete Details"
+      ],
+      "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT": [
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT_P_CAPPING_BEAM",
+        "ST_P_CAPPING_BEAM_TOTAL_ACTUAL_REINFORCEMENT_QTY_MT",
+        "STATION_NAME",
+        "Actual Reinforcement Details"
+      ],
+      "THEORETICAL_REINFORCEMENT_QTY_MT": [
+        "THEORETICAL_REINFORCEMENT_QTY_MT_P_CAPPING_BEAM",
+        "ST_P_CAPPING_BEAM_THEORETICAL_REINFORCEMENT_QTY_MT",
+        "STATION_NAME",
+        "Theoretical Reinforcement Details"
+      ],
+      "CASTED_LENGTH": [
+        "CASTED_LENGTH_P_CAPPING_BEAM",
+        "ST_P_CAPPING_BEAM_TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "STATION_NAME",
+        "Casted Length Details"
+      ]
+    },
+    "P_TEMPORARY_RETAINING_WALL": {
+      "THEORETICAL_REINFORCEMENT_QTY_MT": [
+        "THEORETICAL_REINFORCEMENT_QTY_MT_P_TEMPORARY_RETAINING_WALL",
+        "ST_P_TEMPORARY_RETAINING_WALL_THEORETICAL_REINFORCEMENT_QTY_MT",
+        "PILE_ID",
+        "Theoretical Reinforcement Details"
+      ],
+      "ACTUAL_REINFORCEMENT_QTY_MT": [
+        "ACTUAL_REINFORCEMENT_QTY_MT",
+        "ST_P_TEMPORARY_RETAINING_WALL_ACTUAL_REINFORCEMENT_QTY_MT",
+        "PILE_ID",
+        "Actual Reinforcement Details"
+      ]
+    },
+    "P_EXCAVATION": {
+      "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM": [
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "ST_EXCAVATION_TOTAL_EXCAVATED_QTY",
+        "STATION_NAME",
+        "Excavation Details"
+      ],
+      "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM": [
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "ST_EXCAVATION_TOTAL_EXCAVATED_QTY",
+        "STATION_NAME",
+        "Excavation Details"
+      ],
+      "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM": [
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "ST_EXCAVATION_TOTAL_EXCAVATED_QTY",
+        "STATION_NAME",
+        "Excavation Details"
+      ],
+      "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM": [
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "ST_EXCAVATION_TOTAL_SHOTCRETE_QTY",
+        "STATION_NAME",
+        "Shotcrete Details"
+      ],
+      "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM": [
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "ST_EXCAVATION_TOTAL_SHOTCRETE_QTY",
+        "STATION_NAME",
+        "Shotcrete Details"
+      ],
+      "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM": [
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "ST_EXCAVATION_TOTAL_SHOTCRETE_QTY",
+        "STATION_NAME",
+        "Shotcrete Details"
+      ],
+      "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM": [
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "ST_EXCAVATION_TOTAL_WIREMESH_QTY",
+        "STATION_NAME",
+        "Wiremesh Details"
+      ],
+      "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM": [
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "ST_EXCAVATION_TOTAL_WIREMESH_QTY",
+        "STATION_NAME",
+        "Wiremesh Details"
+      ],
+      "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM": [
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "ST_EXCAVATION_TOTAL_WIREMESH_QTY",
+        "STATION_NAME",
+        "Wiremesh Details"
+      ],
+      "TOTAL_ROCK_ANCHORS_25MM_4M_NOS": [
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "ST_EXCAVATION_TOTAL_ROCK_ANCHORS",
+        "STATION_NAME",
+        "Rock Anchors Details"
+      ],
+      "TOTAL_ROCK_ANCHORS_32MM_6M_NOS": [
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "ST_EXCAVATION_TOTAL_ROCK_ANCHORS",
+        "STATION_NAME",
+        "Rock Anchors Details"
+      ],
+      "PLANNED_START_DATE": [
+        "PLANNED_START_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ],
+      "PLANNED_END_DATE": [
+        "PLANNED_END_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ],
+      "ACTUAL_START_DATE": [
+        "ACTUAL_START_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ],
+      "ACTUAL_END_DATE": [
+        "ACTUAL_END_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ],
+      "FORECAST_START_DATE": [
+        "FORECAST_START_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ],
+      "FORECAST_END_DATE": [
+        "FORECAST_END_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ]
+    },
+    "E_EXCAVATION": {
+      "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM": [
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "ST_EXCAVATION_TOTAL_EXCAVATED_QTY",
+        "STATION_NAME",
+        "Excavation Details"
+      ],
+      "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM": [
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "ST_EXCAVATION_TOTAL_EXCAVATED_QTY",
+        "STATION_NAME",
+        "Excavation Details"
+      ],
+      "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM": [
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "ST_EXCAVATION_TOTAL_EXCAVATED_QTY",
+        "STATION_NAME",
+        "Excavation Details"
+      ],
+      "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM": [
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "ST_EXCAVATION_TOTAL_SHOTCRETE_QTY",
+        "STATION_NAME",
+        "Shotcrete Details"
+      ],
+      "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM": [
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "ST_EXCAVATION_TOTAL_SHOTCRETE_QTY",
+        "STATION_NAME",
+        "Shotcrete Details"
+      ],
+      "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM": [
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "ST_EXCAVATION_TOTAL_SHOTCRETE_QTY",
+        "STATION_NAME",
+        "Shotcrete Details"
+      ],
+      "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM": [
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "ST_EXCAVATION_TOTAL_WIREMESH_QTY",
+        "STATION_NAME",
+        "Wiremesh Details"
+      ],
+      "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM": [
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "ST_EXCAVATION_TOTAL_WIREMESH_QTY",
+        "STATION_NAME",
+        "Wiremesh Details"
+      ],
+      "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM": [
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "ST_EXCAVATION_TOTAL_WIREMESH_QTY",
+        "STATION_NAME",
+        "Wiremesh Details"
+      ],
+      "TOTAL_ROCK_ANCHORS_25MM_4M_NOS": [
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "ST_EXCAVATION_TOTAL_ROCK_ANCHORS",
+        "STATION_NAME",
+        "Rock Anchors Details"
+      ],
+      "TOTAL_ROCK_ANCHORS_32MM_6M_NOS": [
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "ST_EXCAVATION_TOTAL_ROCK_ANCHORS",
+        "STATION_NAME",
+        "Rock Anchors Details"
+      ],
+      "PLANNED_START_DATE": [
+        "PLANNED_START_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ],
+      "PLANNED_END_DATE": [
+        "PLANNED_END_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ],
+      "ACTUAL_START_DATE": [
+        "ACTUAL_START_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ],
+      "ACTUAL_END_DATE": [
+        "ACTUAL_END_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ],
+      "FORECAST_START_DATE": [
+        "FORECAST_START_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ],
+      "FORECAST_END_DATE": [
+        "FORECAST_END_DATE_EXCAVATION",
+        "ST_EXCAVATION_PLANNED_ACTUAL_FORECAST_DATE",
+        "STATION_NAME",
+        "Scheduled Date"
+      ]
+    },
+    "P_GUIDE_WALL": {
+      "TOTAL_ACTUAL_CONCRETE_QTY_CUM": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM_P_GUIDE_WALL",
+        "ST_P_GUIDE_WALL_TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "STATION_NAME",
+        "Actual Concrete Details"
+      ],
+      "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT": [
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT_P_GUIDE_WALL",
+        "ST_P_GUIDE_WALL_TOTAL_ACTUAL_REINFORCEMENT_QTY_MT",
+        "STATION_NAME",
+        "Actual Reinforcement Details"
+      ],
+      "THEORETICAL_REINFORCEMENT_QTY_MT": [
+        "THEORETICAL_REINFORCEMENT_QTY_MT_P_GUIDE_WALL",
+        "ST_P_GUIDE_WALL_THEORETICAL_REINFORCEMENT_QTY_MT",
+        "STATION_NAME",
+        "Theoretical Reinforcement Details"
+      ]
+    }
+  },
+  "subTables": {
+    "CASTED_LENGTH_P_CAPPING_BEAM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Activity Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FROM_PILE_ID": [
+          "text",
+          "From Pile",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "TO_PILE_ID": [
+          "text",
+          "To Pile",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "CASTED_LENGTH_M": [
+          "floatNumber",
+          "Casted length(m)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_CONCRETE_QUANTITY_CUM": [
+          "floatNumber",
+          "Actual Concrete Quantity(cum)",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_ACTUAL_CONCRETE_QTY_CUM_P_CAPPING_BEAM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Activity Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FROM_PILE_ID": [
+          "text",
+          "From Pile",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "TO_PILE_ID": [
+          "text",
+          "To Pile",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "CASTED_LENGTH_M": [
+          "floatNumber",
+          "Casted length(m)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_CONCRETE_QUANTITY_CUM": [
+          "floatNumber",
+          "Actual Concrete Quantity(cum)",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_ACTUAL_CONCRETE_QTY_CUM_P_GUIDE_WALL": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Activity Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FROM_PILE_ID": [
+          "text",
+          "From Pile",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "TO_PILE_ID": [
+          "text",
+          "To Pile",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "CASTED_LENGTH_M": [
+          "floatNumber",
+          "Casted length(m)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_CONCRETE_QUANTITY_CUM": [
+          "floatNumber",
+          "Actual Concrete Quantity(cum)",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "THEORETICAL_REINFORCEMENT_QTY_MT_P_CAPPING_BEAM": [
+      {
+        "THEORETICAL_REINFORCEMENT_DIA": [
+          "select",
+          "Theoretical Reinforcement Dia.",
+          "PICKLIST 17",
+          true,
+          50
+        ]
+      },
+      {
+        "QUANTITY_MT": [
+          "floatNumber",
+          "Quantity(MT)",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "THEORETICAL_REINFORCEMENT_QTY_MT_P_TEMPORARY_RETAINING_WALL": [
+      {
+        "THEORETICAL_REINFORCEMENT_DIA": [
+          "select",
+          "Theoretical Reinforcement Dia.",
+          "PICKLIST 17",
+          true,
+          50
+        ]
+      },
+      {
+        "QUANTITY_MT": [
+          "floatNumber",
+          "Quantity(MT)",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "THEORETICAL_REINFORCEMENT_QTY_MT_P_GUIDE_WALL": [
+      {
+        "THEORETICAL_REINFORCEMENT_DIA": [
+          "select",
+          "Theoretical Reinforcement Dia.",
+          "PICKLIST 17",
+          true,
+          50
+        ]
+      },
+      {
+        "QUANTITY_MT": [
+          "floatNumber",
+          "Quantity(MT)",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT_P_CAPPING_BEAM": [
+      {
+        "ACTUAL_REINFORCEMENT_DIA": [
+          "select",
+          "Actual Reinforcement Dia.",
+          "PICKLIST 17",
+          true,
+          50
+        ]
+      },
+      {
+        "QUANTITY_MT": [
+          "floatNumber",
+          "Quantity(MT)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FROM_PILE_ID": [
+          "text",
+          "From Pile",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "TO_PILE_ID": [
+          "text",
+          "To Pile",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT_P_GUIDE_WALL": [
+      {
+        "ACTUAL_REINFORCEMENT_DIA": [
+          "select",
+          "Actual Reinforcement Dia.",
+          "PICKLIST 17",
+          true,
+          50
+        ]
+      },
+      {
+        "QUANTITY_MT": [
+          "floatNumber",
+          "Quantity(MT)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FROM_PILE_ID": [
+          "text",
+          "From Pile",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "TO_PILE_ID": [
+          "text",
+          "To Pile",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "ACTUAL_REINFORCEMENT_QTY_MT": [
+      {
+        "ACTUAL_REINFORCEMENT_DIA": [
+          "select",
+          "Actual Reinforcement Dia.",
+          "PICKLIST 17",
+          true,
+          50
+        ]
+      },
+      {
+        "QUANTITY_MT": [
+          "floatNumber",
+          "Quantity(MT)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "SOIL_TYPE": [
+          "select",
+          "Soil Type",
+          "PICKLIST 12",
+          true,
+          50
+        ]
+      },
+      {
+        "EXCAVATED_QUANTITY_CUM": [
+          "floatNumber",
+          "Excavated quantity",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      },
+      {
+        "EXCAVATION_CONSTRAINT": [
+          "text",
+          "Excavation Constraint",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "SOIL_DESCRIPTION": [
+          "text",
+          "Soil Description",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "REMARKS": [
+          "text",
+          "Remarks",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LAYER_NUMBER": [
+          "select",
+          "Layer Number",
+          "PICKLIST 21",
+          true,
+          50
+        ]
+      },
+      {
+        "FROM_RL": [
+          "text",
+          "From RL",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "TO_RL": [
+          "text",
+          "To RL",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "SOIL_TYPE": [
+          "select",
+          "Soil Type",
+          "PICKLIST 12",
+          true,
+          50
+        ]
+      },
+      {
+        "EXCAVATED_QUANTITY_CUM": [
+          "floatNumber",
+          "Excavated quantity",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      },
+      {
+        "EXCAVATION_CONSTRAINT": [
+          "text",
+          "Excavation Constraint",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "SOIL_DESCRIPTION": [
+          "text",
+          "Soil Description",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "REMARKS": [
+          "text",
+          "Remarks",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LAYER_NUMBER": [
+          "select",
+          "Layer Number",
+          "PICKLIST 21",
+          true,
+          50
+        ]
+      },
+      {
+        "FROM_RL": [
+          "text",
+          "From RL",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "TO_RL": [
+          "text",
+          "To RL",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "SOIL_TYPE": [
+          "select",
+          "Soil Type",
+          "PICKLIST 12",
+          true,
+          50
+        ]
+      },
+      {
+        "EXCAVATED_QUANTITY_CUM": [
+          "floatNumber",
+          "Excavated quantity",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      },
+      {
+        "EXCAVATION_CONSTRAINT": [
+          "text",
+          "Excavation Constraint",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "SOIL_DESCRIPTION": [
+          "text",
+          "Soil Description",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "REMARKS": [
+          "text",
+          "Remarks",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LAYER_NUMBER": [
+          "select",
+          "Layer Number",
+          "PICKLIST 21",
+          true,
+          50
+        ]
+      },
+      {
+        "FROM_RL": [
+          "text",
+          "From RL",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "TO_RL": [
+          "text",
+          "To RL",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "SHOTCRETE_SPEC": [
+          "select",
+          "Shotcrere Specification",
+          "PICKLIST 13",
+          true,
+          50
+        ]
+      },
+      {
+        "SHOTCRETE_QUANTITY_CUM": [
+          "floatNumber",
+          "Shotcrere Quantity(cum)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "SHOTCRETE_SPEC": [
+          "select",
+          "Shotcrere Specification",
+          "PICKLIST 13",
+          true,
+          50
+        ]
+      },
+      {
+        "SHOTCRETE_QUANTITY_CUM": [
+          "floatNumber",
+          "Shotcrere Quantity(cum)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "SHOTCRETE_SPEC": [
+          "select",
+          "Shotcrere Specification",
+          "PICKLIST 13",
+          true,
+          50
+        ]
+      },
+      {
+        "SHOTCRETE_QUANTITY_CUM": [
+          "floatNumber",
+          "Shotcrere Quantity(cum)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "WIREMESH_SPEC": [
+          "select",
+          "Wiremesh Specification",
+          "PICKLIST 14",
+          true,
+          50
+        ]
+      },
+      {
+        "WIREMESH_QUANTITY_SQM": [
+          "floatNumber",
+          "Wiremesh Quantity(sqm)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "WIREMESH_SPEC": [
+          "select",
+          "Wiremesh Specification",
+          "PICKLIST 14",
+          true,
+          50
+        ]
+      },
+      {
+        "WIREMESH_QUANTITY_SQM": [
+          "floatNumber",
+          "Wiremesh Quantity(sqm)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Activity Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "WIREMESH_SPEC": [
+          "select",
+          "Wiremesh Specification",
+          "PICKLIST 14",
+          true,
+          50
+        ]
+      },
+      {
+        "WIREMESH_QUANTITY_SQM": [
+          "floatNumber",
+          "Wiremesh Quantity(sqm)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_ROCK_ANCHORS_25MM_4M_NOS": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ANCHORBOLT_SPEC": [
+          "select",
+          "Anchorbolt Specification",
+          "PICKLIST 15",
+          true,
+          50
+        ]
+      },
+      {
+        "ANCHORBOLT_QUANTITY_NOS": [
+          "number",
+          "Anchorbolt Quantity(nos)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      }
+    ],
+    "TOTAL_ROCK_ANCHORS_32MM_6M_NOS": [
+      {
+        "ACTIVITY_DATE": [
+          "myDateField",
+          "Actual Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ANCHORBOLT_SPEC": [
+          "select",
+          "Anchorbolt Specification",
+          "PICKLIST 15",
+          true,
+          50
+        ]
+      },
+      {
+        "ANCHORBOLT_QUANTITY_NOS": [
+          "number",
+          "Anchorbolt Quantity(nos)",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      }
+    ],
+    "PLANNED_START_DATE_EXCAVATION": [
+      {
+        "ACTIVITY_ID": [
+          "text",
+          "Activity Id",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTIVITY_NAME": [
+          "text",
+          "Activity Name",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_START_DATE": [
+          "myDateField",
+          "Planned Start date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_END_DATE": [
+          "myDateField",
+          "Planned Finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_START_DATE": [
+          "myDateField",
+          "Actual start Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_END_DATE": [
+          "myDateField",
+          "Actual finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FORECAST_START_DATE": [
+          "myDateField",
+          "Forecast start Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "FORECAST_END_DATE": [
+          "myDateField",
+          "Forecast end Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      },
+      {
+        "REMARKS": [
+          "text",
+          "remarks",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "PLANNED_END_DATE_EXCAVATION": [
+      {
+        "ACTIVITY_ID": [
+          "text",
+          "Activity Id",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTIVITY_NAME": [
+          "text",
+          "Activity Name",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_START_DATE": [
+          "myDateField",
+          "Planned Start date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_END_DATE": [
+          "myDateField",
+          "Planned Finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_START_DATE": [
+          "myDateField",
+          "Actual start Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_END_DATE": [
+          "myDateField",
+          "Actual finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FORECAST_START_DATE": [
+          "myDateField",
+          "Forecast start Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "FORECAST_END_DATE": [
+          "myDateField",
+          "Forecast end Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      },
+      {
+        "REMARKS": [
+          "text",
+          "remarks",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "ACTUAL_START_DATE_EXCAVATION": [
+      {
+        "ACTIVITY_ID": [
+          "text",
+          "Activity Id",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTIVITY_NAME": [
+          "text",
+          "Activity Name",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_START_DATE": [
+          "myDateField",
+          "Planned Start date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_END_DATE": [
+          "myDateField",
+          "Planned Finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_START_DATE": [
+          "myDateField",
+          "Actual start Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_END_DATE": [
+          "myDateField",
+          "Actual finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FORECAST_START_DATE": [
+          "myDateField",
+          "Forecast start Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "FORECAST_END_DATE": [
+          "myDateField",
+          "Forecast end Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      },
+      {
+        "REMARKS": [
+          "text",
+          "remarks",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "ACTUAL_END_DATE_EXCAVATION": [
+      {
+        "ACTIVITY_ID": [
+          "text",
+          "Activity Id",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTIVITY_NAME": [
+          "text",
+          "Activity Name",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_START_DATE": [
+          "myDateField",
+          "Planned Start date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_END_DATE": [
+          "myDateField",
+          "Planned Finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_START_DATE": [
+          "myDateField",
+          "Actual start Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_END_DATE": [
+          "myDateField",
+          "Actual finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FORECAST_START_DATE": [
+          "myDateField",
+          "Forecast start Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "FORECAST_END_DATE": [
+          "myDateField",
+          "Forecast end Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      },
+      {
+        "REMARKS": [
+          "text",
+          "remarks",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "FORECAST_START_DATE_EXCAVATION": [
+      {
+        "ACTIVITY_ID": [
+          "text",
+          "Activity Id",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTIVITY_NAME": [
+          "text",
+          "Activity Name",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_START_DATE": [
+          "myDateField",
+          "Planned Start date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_END_DATE": [
+          "myDateField",
+          "Planned Finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_START_DATE": [
+          "myDateField",
+          "Actual start Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_END_DATE": [
+          "myDateField",
+          "Actual finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FORECAST_START_DATE": [
+          "myDateField",
+          "Forecast start Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "FORECAST_END_DATE": [
+          "myDateField",
+          "Forecast end Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      },
+      {
+        "REMARKS": [
+          "text",
+          "remarks",
+          "",
+          true,
+          50
+        ]
+      }
+    ],
+    "FORECAST_END_DATE_EXCAVATION": [
+      {
+        "ACTIVITY_ID": [
+          "text",
+          "Activity Id",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTIVITY_NAME": [
+          "text",
+          "Activity Name",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_START_DATE": [
+          "myDateField",
+          "Planned Start date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "PLANNED_END_DATE": [
+          "myDateField",
+          "Planned Finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_START_DATE": [
+          "myDateField",
+          "Actual start Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "ACTUAL_END_DATE": [
+          "myDateField",
+          "Actual finish Date",
+          "",
+          true,
+          50
+        ]
+      },
+      {
+        "FORECAST_START_DATE": [
+          "myDateField",
+          "Forecast start Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "FORECAST_END_DATE": [
+          "myDateField",
+          "Forecast end Date",
+          "",
+          false,
+          50
+        ]
+      },
+      {
+        "LOCATION": [
+          "select",
+          "Location",
+          "PICKLIST 23",
+          true,
+          50
+        ]
+      },
+      {
+        "REMARKS": [
+          "text",
+          "remarks",
+          "",
+          true,
+          50
+        ]
+      }
+    ]
+  },
+  "PICKLIST": {
+    "PICKLIST 17": [
+      "8mm",
+      "10mm",
+      "12mm",
+      "16mm",
+      "20mm",
+      "25mm",
+      "28mm",
+      "32mm",
+      "36mm",
+      "40mm"
+    ],
+    "PICKLIST 12": [
+      "Soil",
+      "Weathered Rock grade 5,4",
+      "Hard Rock grade 3,2,1"
+    ],
+    "PICKLIST 13": [
+      "M 45 grade layer 4 cm thick",
+      "M 45 grade layer 5 cm thick",
+      "M 35 grade layer 8 cm thick"
+    ],
+    "PICKLIST 14": [
+      "8mm dia 20cm X 20cm",
+      "6mm dia 20cm X 20cm",
+      "8mm dia 15cm X15cm"
+    ],
+    "PICKLIST 15": [
+      "25mm dia, 4.0m long",
+      "32mm dia, 6.0m long "
+    ],
+    "PICKLIST 23": [
+      "NA",
+      "West Side",
+      "East Side"
+    ],
+    "PICKLIST 21": [
+      "Layer 1",
+      "Layer 2",
+      "Layer 3",
+      "Layer 4",
+      "Layer 5",
+      "Layer 6",
+      "Layer 7",
+      "Layer 8",
+      "Layer 9",
+      "Layer 10",
+      "Layer 11",
+      "Layer 12",
+      "Layer 13",
+      "Layer 14",
+      "Layer 15",
+      "Layer 16",
+      "Layer 17",
+      "Layer 18",
+      "Layer 19",
+      "Layer 20",
+      "Layer 21",
+      "Layer 22",
+      "Layer 23",
+      "Layer 24",
+      "Layer 25",
+      "Layer 26",
+      "Layer 27",
+      "Layer 28",
+      "Layer 29",
+      "Layer 30",
+      "Layer 31"
+    ]
+  },
+  "subTablesEditables": {
+    "P_CAPPING_BEAM": {
+      "CP": [
+        "CASTED_LENGTH",
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "SP": [
+        "CASTED_LENGTH",
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Execution": [
+        "CASTED_LENGTH",
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Design": [
+        "THEORETICAL_REINFORCEMENT_QTY_MT"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": [],
+      "Admin": []
+    },
+    "P_TEMPORARY_RETAINING_WALL": {
+      "CP": [
+        "ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "SP": [
+        "ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Execution": [
+        "ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Design": [
+        "THEORETICAL_REINFORCEMENT_QTY_MT"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": [],
+      "Admin": []
+    },
+    "P_GUIDE_WALL": {
+      "CP": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "SP": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Execution": [
+        "TOTAL_ACTUAL_CONCRETE_QTY_CUM",
+        "TOTAL_ACTUAL_REINFORCEMENT_QTY_MT"
+      ],
+      "Design": [
+        "THEORETICAL_REINFORCEMENT_QTY_MT"
+      ],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": [],
+      "Admin": []
+    },
+    "P_EXCAVATION": {
+      "CP": [
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "SP": [
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "Execution": [
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "Design": [],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": [],
+      "Admin": []
+    },
+    "E_EXCAVATION": {
+      "CP": [
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "SP": [
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "PLANNED_START_DATE",
+        "PLANNED_END_DATE",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "Execution": [
+        "TOTAL_EXCAVATED_QTY_IN_SOIL_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_WEATHERED_ROCK_CUM",
+        "TOTAL_EXCAVATED_QTY_IN_HARD_ROCK_CUM",
+        "TOTAL_SHOTCRETE_QTY_M45_4CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M45_5CM_THK_SQM",
+        "TOTAL_SHOTCRETE_QTY_M35_8CM_THK_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_6MM_20CMX20CM_SQM",
+        "TOTAL_WIREMESH_QTY_8MM_15CMX15CM_SQM",
+        "TOTAL_ROCK_ANCHORS_25MM_4M_NOS",
+        "TOTAL_ROCK_ANCHORS_32MM_6M_NOS",
+        "ACTUAL_START_DATE",
+        "ACTUAL_END_DATE",
+        "FORECAST START DATE",
+        "FORECAST END DATE"
+      ],
+      "Design": [],
+      "BU": [],
+      "CMPC": [],
+      "PMCM": [],
+      "Admin": []
+    }
+  }
+}
+

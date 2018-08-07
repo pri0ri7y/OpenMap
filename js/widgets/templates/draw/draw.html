@@ -1,0 +1,109 @@
+<div class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content"> 
+           <div class="modal-header"> 
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <div class="flipthis-wrapper">
+                     <span aria-hidden="true">&times;</span>
+                   </div>
+               </button> 
+               <h4 class="modal-title" >Draw tool</h4></div>
+            <div class="modal-body" id="w2ModalArea">                    
+              <ul class="list-unstyled outerList"> 
+                <li>
+                    <ul class="list-inline list-unstyled">
+
+                        <li>
+                            <button  data-dojo-attach-event="onClick:StartDrawPoint" data-toggle="tooltip" title="point"> 
+                                <i class="ms ms-points" aria-hidden="true"></i>
+                            </button>
+                        </li>    
+                        <li>
+                            <button data-dojo-attach-event="onClick:StartDrawCircle" data-toggle="tooltip" title="circle"> 
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                            </button>
+                        </li>       
+                        <li>
+                            <button data-dojo-attach-event="onClick:StartDrawPolyline" data-toggle="tooltip" title="line"> 
+                                <i class="ms ms-line" aria-hidden="true"></i> 
+                            </button>
+                        </li>       
+                        <li>
+                            <button   data-dojo-attach-event="onClick:StartDrawPolygon" data-toggle="tooltip" title="polygon"> 
+                                <i class="ms ms-polygon" aria-hidden="true"></i>
+                            </button>
+                        </li>        
+                        <li>         
+                             <button  data-dojo-attach-event="onClick:StartDrawFPolygon" data-toggle="tooltip" title="square"> 
+                                <i class="fa fa-square" aria-hidden="true"></i>
+                            </button>  
+                        </li>          
+                        <li>
+                            <button  data-dojo-attach-point="stopDrawingButton" data-dojo-attach-event="onClick:stopDrawing" data-toggle="tooltip" title="stop">
+                                <i class="fa fa-stop-circle" aria-hidden="true"></i>
+                            </button>
+                        </li>            
+                        <li>
+                            <button  data-dojo-attach-event="onClick:clearGraphics" data-toggle="tooltip" title="clear">
+                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                            </button>
+                        </li> 
+                    </ul>
+                </li>
+                <li>
+                    <div>                         
+                        <span data-dojo-attach-point="drawModeTextNode"></span>
+                    </div>
+                </li>      
+            </ul>					 
+                <button type="button" class="close" data-toggle="tooltip" title="help" style="margin-right: 0px; margin-top: -14px;" data-dojo-attach-event='onClick:startHelp'>
+                    <div class="flipthis-wrapper">
+                        <span aria-hidden="true">&iexcl;</span>
+                    </div>
+                </button>
+            </div> 
+        </div> 
+    </div>
+</div>              
+                                    
+                                     
+                                 
+                            
+                                   
+                                    
+                                   
+                                
+                            
+                               
+                               
+                             
+                            
+                        
+
+                        
+                            
+                        
+
+                       
+
+                           
+                              
+                            
+                                 
+                                
+                            
+                                
+                               
+                            
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+           

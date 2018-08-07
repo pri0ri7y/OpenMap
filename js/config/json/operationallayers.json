@@ -1,0 +1,32 @@
+﻿ [
+    {
+        "type": "TileWMS",
+        "title": "topp:states",
+        "extent": [-13884991, 2870341, -7455066, 6338219],
+        "options": {
+            "serverType": "geoserver",
+            "params": {
+                "LAYERS":"topp:states",
+                "STYLES": "",
+                "VERSION": "1.3.0"
+            },
+            "ratio": 1.5,
+            "url": "http://demo.boundlessgeo.com/geoserver/wms",
+            "visible": true
+        },
+        "layerControlLayerInfos": {
+            "noLegend": false,
+            "noZoom": false,
+            "noTransparency": false,
+            "swipe": false,
+            "expanded": false,
+            "sublayers": true,
+            "metadataUrl": {
+                "include": true,
+                "url": "http://demo.boundlessgeo.com/geoserver/wms?service=wms&version=1.3.0&request=GetCapabilities"
+            }
+        }
+
+    }      
+
+ ]

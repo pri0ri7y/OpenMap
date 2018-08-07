@@ -1,0 +1,331 @@
+#jarvis-base-node {
+  bottom: 11em;
+  left: 3.3em;
+    z-index: 5;
+    position: absolute;
+    -webkit-transition: width 1s ease;
+    -moz-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    transition: width 1s ease;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    background: yellow;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+    width: 0px;
+}
+#jarvis-base-node.in {
+    width: 215px;
+}
+
+.cjarvis {
+    position: absolute;
+    z-index: 5;
+    bottom: 11em;
+    left: .5em;
+    width: 2.8em;
+}
+
+
+
+
+
+#toolDiv {
+  bottom: 2em;
+  left: 3.3em;
+    z-index: 5;
+    position: absolute;
+    -webkit-transition: width 1s ease;
+    -moz-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    transition: width 1s ease;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    background: yellow;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+    width: 0px;
+}
+#toolDiv.in {
+    width: 220px;
+}
+
+.cbtn {
+    position: absolute;
+    z-index: 5;
+    bottom: 2em;
+    left: 0.5em;
+}
+
+
+#bmapDiv {
+  bottom: 5em;
+  left: 3.3em;
+    z-index: 5;
+    position: absolute;
+    -webkit-transition: width 1s ease;
+    -moz-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    transition: width 1s ease;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    background: yellow;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+    width: 0px;
+}
+#bmapDiv.in {
+  width: 165px;
+}
+
+.cbmap {
+    position: absolute;
+    z-index: 5;
+    bottom: 5em;
+    left: 0.5em;
+}
+
+.cbmapicon {
+margin-left: 0.5em;
+}
+
+.cbmapicon:hover{
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+ }
+
+.ctoolicon {
+margin-left: 0.5em;
+}
+
+.ctoolicon:hover{
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+ }
+
+
+
+
+body {
+  padding-top: 50px;
+}
+
+.navbar-brand {
+  display: inline-flex;
+  line-height: 28px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.navbar-brand-image {
+  height: 32px;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+.starter-template {
+  padding: 15px 15px;
+  text-align: center;
+}
+.navbar-inverse .navbar-brand {
+	font-size: 16px;
+	color: #fff;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.jumbotron {
+	margin-top: 30px;
+	background: url('../images/map-gray.png') no-repeat left center;
+}
+
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+html,body{
+  	height:100%;
+} 
+ 
+#main, #main>.row {
+	height:100%;
+}
+
+#main>.row {
+    overflow-y:auto;
+}
+ 
+#mapDiv {
+	width:100%;
+    height:calc(100% - 0);
+    position:absolute;    
+    top:50px;
+    bottom:0;
+    overflow:hidden;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+ 
+/*****   Overview map override*****/
+.ol-custom-overviewmap,
+.ol-custom-overviewmap.ol-uncollapsible {
+bottom: auto;
+left: auto;
+right: 0;
+top: 0;
+z-index:999;
+}
+
+.ol-custom-overviewmap:not(.ol-collapsed)  {
+border: 1px solid black;
+}
+
+.ol-custom-overviewmap .ol-overviewmap-map {
+border: none;
+width: 300px;
+}
+
+.ol-custom-overviewmap .ol-overviewmap-box {
+border: 2px solid red;
+}
+
+.ol-custom-overviewmap:not(.ol-collapsed) button{
+bottom: auto;
+left: auto;
+right: 1px;
+top: 1px;
+}
+
+
+/******** Geolocate Widget  ***********/
+
+.geolocate { 
+    position: absolute;
+    z-index: 5;
+    bottom: 8em;
+    left: 0.5em; 
+}
+
+/******** Geolocate Widget  ***********/	
+ 
+
+
+/*********** SLIDER & SAFE MODE ON/OFF ********************/
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fd0505;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /******** ON/OFF TEXT CSS ************/
+ 
+  .toggleon
+  {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 28%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+  }
+  
+
+  .toggleoff
+  {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 79%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+  }
+  
+  .toggleoff
+  {display:none;}
+
+
+
+  /******************************
+  
+
+
+
+  /*********** SLIDER & SAFE MODE ON/OFF ********************/

@@ -1,0 +1,97 @@
+.OpenMap_draw {
+}
+
+.OpenMap_draw .outerList>li {
+    margin-bottom: 1em;
+}
+.OpenMap_draw .list-unstyled {
+    padding-left: 0px;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+.OpenMap_draw .list-inline {
+    padding-left: 0px;
+    margin-left: -5px;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+.OpenMap_draw .list-inline > li {
+    display: inline-block;
+}
+
+.OpenMap_draw .drawButton {
+    width: 30px;
+}
+
+.OpenMap_draw .stopIcon {
+    color: red;
+}
+
+.OpenMap_draw .drawButton .dijitButtonText {
+    /*display: none;*/
+}
+.OpenMap_draw .polyIcon {
+    background-image: url(../images/toolbar_icons.png);
+    background-position: -68px 0;
+    width: 16px;
+    height: 16px;
+}
+
+.OpenMap_draw .pointIcon {
+    background-image: url(../images/toolbar_icons.png);
+    background-position: 0px 0;
+    width: 16px;
+    height: 16px;
+}
+
+.OpenMap_draw .circleDrawIcon {
+    background-image: url(../images/toolbar_icons.png);
+    background-position: -390px 0;
+    width: 16px;
+    height: 16px;
+}
+
+.OpenMap_draw .lineIcon {
+    background-image: url(../images/toolbar_icons.png);
+    background-position: -34px 0;
+    width: 16px;
+    height: 16px;
+}
+
+.OpenMap_draw .freehandDrawIcon {
+    background-image: url(../images/toolbar_icons.png);
+    background-position: -102px 0;
+    width: 16px;
+    height: 16px;
+}
+
+.OpenMap_draw .freehandPolygonDrawIcon {
+    background-image: url(../images/toolbar_icons_2.png);
+    background-position: -473px 0;
+    width: 16px;
+    height: 16px;
+}
+
+.OpenMap_draw .clearIcon {
+    background-image: url(../images/clear.png);
+    width: 16px;
+    height: 16px;
+}
+
+.OpenMap_draw .formContainer {
+    /*border: 1px solid #bbb;*/
+    margin-bottom: -1px;
+    width: 100%;
+}
+
+.OpenMap_draw .buttonActionBar {
+    /*background-color: #F2F2F2;
+    border: 1px solid #CDCDCD;*/
+    padding: 3px 0px 2px 0px;
+    text-align: right;
+    width: 100%;
+}
