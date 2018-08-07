@@ -1,0 +1,2 @@
+# openmap
+openlayers configurable maps
