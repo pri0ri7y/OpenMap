@@ -29,10 +29,10 @@
 
                 //create and push the widget
                 this.addedWidgets.push(new measurement({
-                    map: this.map,
                     divToBind: this.divToBind,
                     displayDiv:this.displayDiv,
                     _id: 'iw1',
+                    map: this.map,                   
                     useVoiceRecognition: this.useVoiceRecognition
                 }, '_w1'));
             } // end if
@@ -44,10 +44,10 @@
 
                 //create and push the widget
                 this.addedWidgets.push(new draw({
-                    map: this.map,
                     divToBind: this.divToBind,
                     displayDiv: this.displayDiv,
                     _id: 'iw2',
+                    map: this.map,                  
                     useVoiceRecognition: this.useVoiceRecognition
                 }, '_w2'));
             } // end if
@@ -66,10 +66,10 @@
 
                 //create and push the widget
                 this.addedWidgets.push(new layercontrolbase({
-                    map: this.map,
                     divToBind: this.divToBind,
                     displayDiv: this.displayDiv,
                     _id: 'iw4',
+                    map: this.map,                   
                     useVoiceRecognition: this.useVoiceRecognition,
                     layers: this.layersObject.layers
                 }, '_w4'));
@@ -103,10 +103,10 @@
 
                 //create and push the widget
                 this.addedWidgets.push(new print({
-                    map: this.map,
                     divToBind: this.divToBind,
                     displayDiv: this.displayDiv,
                     _id: 'iw6',
+                    map: this.map,                    
                     useVoiceRecognition: this.useVoiceRecognition                  
                 }, '_w6'));
             } // end if
@@ -124,8 +124,10 @@
                 domConstruct.create("div", { id: "_w8" }, "toolDisplayDiv");
                 
                 this.addedWidgets.push(new bookmarks({
-                    map: true,
                     _id: 'iw8',
+                    divToBind: this.divToBind,
+                    displayDiv:this.displayDiv,
+                    map: this.map,
                     editable: true,
                     bookmarks: [
                         {

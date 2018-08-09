@@ -11,9 +11,11 @@ define([
     'dojox/grid/DataGrid',
     'dojo/data/ItemFileWriteStore',
     'dijit/form/Button',
+    'dojo/on',
+    'dojo/query',
     'dojo/text!templatesPath/bookmarks/bookmarks.html',
     'library/xstyle/css!templatesPath/bookmarks/css/bookmarks.css'
-], function (declare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, json, array, cookie, lang, domConstruct, DataGrid, ItemFileWriteStore, Button, template) {
+], function (declare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, json, array, cookie, lang, domConstruct, DataGrid, ItemFileWriteStore, Button,on,query, template) {
 
     return declare([_WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin], {
         widgetsInTemplate: true,
@@ -89,7 +91,7 @@ define([
 
             var entry = domConstruct.create('div');
             var button = new Button({
-                label:  t.bookmark.get('value'),
+                label:  t.bookmark.value,
                 style: 'width:70%'
             });
             button.startup();
@@ -115,7 +117,7 @@ define([
             t.bookmarkList.appendChild(entry);
 
             t.places.push({
-                name: t.bookmark.get('value'),
+                name: t.bookmark.value,
                 extent: t.map.getView().calculateExtent(t.map.getSize())
             });
 
