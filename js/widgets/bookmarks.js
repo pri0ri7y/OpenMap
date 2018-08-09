@@ -27,6 +27,7 @@ define([
         postCreate: function () {
             var t = this;
             this.inherited(arguments);
+            this.addWidgetTodiv();
 
             var bookmarks = this.bookmarks; // from the options passed in
 
@@ -71,9 +72,16 @@ define([
 
         },
 
-        test: function(){
-            alert('You Clicked It!');
+        addWidgetTodiv: function () {
+            //add to opener Base
+            $('#' + this.divToBind).append('<img src="' + this.imgToBind + '" data-toggle="tooltip" title="' + this.toolTip + '" id="' + this._id + '" class="img-thumbnail ctoolicon" width="25" height="25" style=" background-color: rgba(255, 255, 255, 0); border: rgba(255, 255, 255, 0);" >');
+
+            //add the onClick event
+            on(query('#' + this._id), "click", lang.hitch(this, this.openWidget));
         },
+        openWidget: function () {
+            $('#_w8').modal();
+        }, 
 
         addBookmark: function () {
 

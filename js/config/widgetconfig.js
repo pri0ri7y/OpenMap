@@ -120,9 +120,12 @@
 
 
             if (this.addToApp.includes('w8')) {
+                //create dynamically a node to attach the widget 
+                domConstruct.create("div", { id: "_w8" }, "toolDisplayDiv");
                 
-                  this.addedWidgets.push(new bookmarks({
+                this.addedWidgets.push(new bookmarks({
                     map: true,
+                    _id: 'iw8',
                     editable: true,
                     bookmarks: [
                         {
@@ -131,7 +134,7 @@
                             name: 'USA'
                         }
                     ]
-                }));
+                },'_w8'));
               
             } // end if
   
