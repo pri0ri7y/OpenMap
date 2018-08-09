@@ -20,8 +20,8 @@ define([
         templateString: template,
         map: null,
         imgToBind: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAQNJREFUWIXt0U0OAUEQQOG3wNyBxFmcBQuLOQCJxCFYOM5chETiDsyKTUUmpZuu/iERldTKqO8N8J+0Gct+Bd4Drez+UyFd+Ka2aIgPPsoWC3kFz4Ae0AfmuUNCYD1ZQnzwAZh64CwhOeDokJUDvgHrSNgVsnHcb8VmACyAk3rgAmyBYQI+AnbAVd0+iTnoPuwLuUaEmGA9KSFJcCUbErITLAbWDhVQA2fZ2hhigZ3O0nHAEmKB9Qss3/2EoSFWWP+Fj4kJyQKnhGSDJ7LWECv85EyApvPFxhhigZ2O/iAmxAJ778eGJMN6rCHZ4JSQrLD1cDE4NKQ4HBpSHPaFfBz+rbkDh+NIU+kWPUgAAAAASUVORK5CYII=",
-        toolTip: "Layercontrols",
-        baseClass: 'layercontrolsbase',       
+        toolTip: "layercontrol",
+        baseClass: 'OpenMap_layercontrols_base',       
         typeSelect: 'None',
  
         /** 
