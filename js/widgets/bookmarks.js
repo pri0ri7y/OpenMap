@@ -18,7 +18,7 @@ define([
     return declare([_WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin], {
         widgetsInTemplate: true,
         templateString: template,
-        baseClass: 'BookmarksWidget',
+        baseClass: 'OpenMap_bookmarks',
         imgToBind:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAZdJREFUWIXt1r1qFUEcBfDfVYz56JI0pol4I/oI+hQSxEZTGMV05uYF4vOo+FEYIomFFtrERiG2CooaSYhdQPOxKWYuTPbuXnYDosgeGHaYOec/h5ndOUuDBn8ZrQqc0/H5q2bd4djfQVbH1CBmsYTNKM5i/xluJqZSjOAOnuNnotvGMm4npkoxjW+JOMNubOnYV1xJdNewkeP8LtB9x9WyxWdwEImf0EE7mW9jIc5lkXsdt5IFPmIe54RjaEVdJ9Flwi724EucfCwcQxmG8DRyP+NH7D+soHsUuRtFhK678T5Fuhh3dGszjFbQjSV8HP0KsoKxfsi/2XV1LThRUfTH0BhoDDQG/kkDo1jEayEB97EnBMkK7ipOtTHcwxtsCVmxL1y7q0JGjPQz070i1/Ves/m2VjD2oYLurdxVXGRgF09wQ0i1UxjABSHvX5YU3xNCakZIwAHhv+Ei5vAqxy80sIqpftsUcQnvkmIvcL6C7jLelxm4r95LOSgYfoCTNXRDguEenKlRpItJTBxDd/YYmgYN/lMcAhGAjMAvkBoxAAAAAElFTkSuQmCC",
         toolTip: "bookmark",
         projection: null,
