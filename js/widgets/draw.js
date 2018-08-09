@@ -70,53 +70,7 @@ define([
         openWidget: function () {
             $('#_w2').modal();
         }, 
-        startHelp: function (e) {
-             this.trip = new Trip([
-                            {
-                                sel: $('#w2ModalArea .ms-points'),
-                                content: 'use this to draw points',
-                                position: 's',
-                                delay: 3500
-                            },
-                            {
-                                sel: $('#w2ModalArea .fa-circle'),
-                                content: 'use this to draw circle',
-                                position: 's',
-                                delay: 3500
-                            },
-                            {
-                                sel: $('#w2ModalArea .ms-line'),
-                                content: 'use this to draw lines',
-                                position: 's',
-                                delay: 3500
-                            },
-
-                            {
-                                sel: $('#w2ModalArea .ms-polygon'),
-                                content: 'use this to draw polygons',
-                                position: 's',
-                                delay: 3500
-                            },
-                            {
-                                sel: $('#w2ModalArea .fa-square'),
-                                content: 'use this to draw squares',
-                                position: 's',
-                                delay: 3500
-                            },
-                            {
-                                sel: $('#w2ModalArea .fa-stop-circle'),
-                                content: 'use this to stop drawing',
-                                position: 's',
-                                delay: 3500
-                            },
-                            {
-                                sel: $('#w2ModalArea .fa-refresh'),
-                                 content: 'use this to clear drawing',
-                                 position: 's',
-                                 delay: 3500
-                            }]);
-             this.trip.start();
-        },
+ 
         closeModal: function (e) {
 
         },

@@ -20,7 +20,7 @@ define([
         templateString: template,
         map: null,
         imgToBind: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABhlBMVEUAAAAzMzMzMzMyMjJEREBEREAzMzMzMzMzMzMyMjJEREBEREBEREA0NDQ0NDQzMzMyMjJEREBEREAzMzMzMzMzMzM0NDQ0NDQ0NDQ1NTREREAxMTEzMzNEREBEREAyMjIxMTEzMzIqKiowMDA7Ozk3NzYyMjIxMTEvLy80NDQAAAA0NDQ2NjUzMzMzMzM0NDQfHx0tLS0zMzMxMTEzMzIyMjIyMjItLSozMzMzMzMqKiozMzMzMzMUFBMyMjIxMTEyMjIzMzMAAAAyMjIxMTExMTE2NjUxMTE0NDQ9PTlPT00zMzM0NDQsLCsxMTEyMjIzMzMyMjI0NDQzMzMxMTEzMzM4ODgxMTE0NDQ0NDQ1NTQyMjIxMTA8PDkuLi40NDQ1NTQ2NjUyMjIxMTE0NDQ0NDQyMjIzMzMzMzM2NjU0NDQzMzMzMzM7OzgwMDA3NzZAQD8zMzMzMzMyMjIxMTE1NTQzMzMzMzM0NDMzMzMxMTE0NDQyMjIzMzMaGhk0NDMzMzM0NDSyCAKzAAAAf3RSTlMAPMc3AwQ98+80AQcI8+piMwoLRYCBhYb0NQI07g0Ptvo0Bh0oWff8EE4B7z7GebAEEcwaMzKcBqOgEstsA6Hra5QCpuwSPyukEQVfoxrSp/5apcFhnhLtY/A/QQ0TKOWkQPb3Ta6+KF49LOrwDy9EClmf+Lk9qrovpro9z+kDLJjhHQAAAe1JREFUOE+Nk+lb00AQh1dpbUwqJLUepJtKFQRJ0KikWo+AC9RWiiCIWsX7pN73LZP/3Mlk06bBD/ZLf8+809nZt88y9n+fHTsHMjJmstsT25XbUnZTUrW8pqYS8j2DQ4qih1WjYGB1b7G4b/+BoS4/ODhslhSuM9MqWyZWDgEEQTDS+/0wVrGjIjk7fGR07CiMR3wgF/KJY5O6YjsRx0mOzadkw/GtEy47eQpOm45tT/e4V8UGFe9x5izUzp2HC3i+w7nX5QwbVC2Lt73owwzM0n5e2CE5u5QzjTyZEHMw5Ub7eXx+waoTZxOXrYIWrSFq0GhaVwRGbzHm4Z2N2ITbCFpLV5epmuBWzE2r2QC+ci3NTclVzO4qrImYXy/1cyPMYh2qkt+4qVQSnGkFyqJ6K55fUtr1Hs/kjdhvvS3Pv922K9F09JCV/3qCo1OFYmSyj98RbOMunq+TU2kyyVf8e/cfhOdjx3TXZMgf0nzhw6PHT2gnj9tO12TM0enT4JmL389fmJu2rW/j6HQVfME6L1+9Lm9y3iGuJjg6rYH/Zib3tmy9W4P3xI0kR6cf4CPxT1CkAdrnPo6bfoGvzR7PfEtx3LQVfN/4EXIy+fNXiuOmLfhNPGFSvimZ/qwTT5hMv8nJTpRi/s83Tekv84trMQ/+wcAAAAAASUVORK5CYII=",
-        toolTip: "Measurement",
+        toolTip: "measurement",
         mapClickMode: null,
         typeSelect: 'None', 
         isGeodesic: false,
@@ -79,41 +79,7 @@ define([
         openWidget: function () {
             $('#_w1').modal();
         },
-        startHelp: function (e) { 
-            this.trip = new Trip([                                 
-                                  {
-                                      sel: $('#w1ModalArea .ms-line'),
-                                      content: 'click this for line measurement',
-                                      position: 's',                                      
-                                      delay: 3500
-                                  },
-                                  {
-                                      sel: $('#w1ModalArea .ms-polygon'),
-                                      content: 'click this for area measurement',
-                                      position: 's',                                     
-                                      delay: 3500
-                                  },
-                                 
-                                  {
-                                      sel: $('#w1ModalArea .fa-refresh'),
-                                      content: 'click this for clearing the measurement',
-                                      position: 's',                                      
-                                      delay: 3500
-                                  },                              
-                                  {
-                                      sel: $('#w1ModalArea .fa-stop-circle'),
-                                      content: 'click this to stop measurement',
-                                      position: 's',
-                                      delay: 3500
-                                  },
-                                  {
-                                      sel: $('#w1ModalArea .fa-globe'),
-                                      content: 'enable this for geodesic measurement',
-                                      position: 's',
-                                      delay: 3500
-                                  }]);
-            this.trip.start();
-        },
+   
         closeModal: function (e) {
 
         },

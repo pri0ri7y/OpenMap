@@ -8,17 +8,20 @@
  *   4. 3D Cesium integration
  *   5. Try to impliment all the available widgets of ocmv and full spectrum understanding of ocmv's dojo framework
  *       Modules list:
- *          - Draw
- *          - Growler
+ *          - Draw --  *         
+ *          - bookmark
+ *          - find (Search Attribute table)
+ *          - Geocoder
+ *          - ThreeDButton - cesium integration
  *          - Help
  *          - Homebutton
  *          - Identify
  *          - Measure
  *          - Locate,
+ *          - layercontrol
  *          - Mapinfo
  *          - Overviewmap
  *          - Street View
- *          - Search Attribute table
  *          - Print - using Mapfish (Also, have a complete documentation on how to use that mapfish plugin in detail)
  *   6. push all the widgets as a separate module in git 
  *   7. keep all local assets in asset folder

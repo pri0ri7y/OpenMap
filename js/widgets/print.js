@@ -53,9 +53,7 @@
         openWidget: function () {
             $('#_w6').modal();
         },
-        startHelp: function (e) {
-           
-        },
+ 
         closeModal: function (e) {
 
         },

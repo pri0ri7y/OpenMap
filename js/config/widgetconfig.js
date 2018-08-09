@@ -8,10 +8,11 @@
         "js/widgets/geolocate.js",
         "js/widgets/print.js",
         "js/widgets/itool.js",
+        "js/widgets/bookmarks.js",
         "js/widgets/speechcommand.js"
 
        ],
-   function (declare, lang, domConstruct, measurement, draw, overviewmap, layercontrolbase, geolocate, print, itool, jarvis) {
+   function (declare, lang, domConstruct, measurement, draw, overviewmap, layercontrolbase, geolocate, print, itool, bookmarks, jarvis) {
     return declare(null, {
         constructor: function (options) {
             lang.mixin(this, options);
@@ -118,6 +119,24 @@
             } // end if
 
 
+            if (this.addToApp.includes('w8')) {
+                
+                  this.addedWidgets.push(new bookmarks({
+                    map: true,
+                    editable: true,
+                    bookmarks: [
+                        {
+                            extent: [-15489130.48708616, 398794.4860580916, -5891085.7193757, 8509680.431452557],
+                            spatialReference: 'EPSG:3857',
+                            name: 'USA'
+                        }
+                    ]
+                }));
+              
+            } // end if
+  
+ 
+ 
             if (this.addToApp.includes('jarvis')) {
               
                 this.addedWidgets.push(new jarvis({

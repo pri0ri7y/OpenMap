@@ -323,6 +323,11 @@ top: 1px;
 
 
 
+
+  .dijitPopup {z-index: 1050!important; } /** for setting the z-index contextmenu well above  the modal **/
+
+
+
   /******************************
   
 
