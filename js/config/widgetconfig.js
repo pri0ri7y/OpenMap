@@ -9,10 +9,11 @@
         "js/widgets/print.js",
         "js/widgets/itool.js",
         "js/widgets/bookmarks.js",
+        "js/widgets/mapinfo.js", 
         "js/widgets/speechcommand.js"
 
        ],
-   function (declare, lang, domConstruct, measurement, draw, overviewmap, layercontrolbase, geolocate, print, itool, bookmarks, jarvis) {
+   function (declare, lang, domConstruct, measurement, draw, overviewmap, layercontrolbase, geolocate, print, itool, bookmarks, mapinfo,jarvis) {
     return declare(null, {
         constructor: function (options) {
             lang.mixin(this, options);
@@ -118,7 +119,6 @@
                 }));
             } // end if
 
-
             if (this.addToApp.includes('w8')) {
                 //create dynamically a node to attach the widget 
                 domConstruct.create("div", { id: "_w8" }, "toolDisplayDiv");
@@ -140,8 +140,15 @@
               
             } // end if
   
+            if (this.addToApp.includes('w9')) {                
+                  this.addedWidgets.push(new mapinfo({
+                      map: this.map,
+                      mode: 'EPSG:4326' //EPSG:4326, EPSG:3857, EPSG:2100           
+                  },'mapinfodijit'));
+            } // end if
  
- 
+
+
             if (this.addToApp.includes('jarvis')) {
               
                 this.addedWidgets.push(new jarvis({

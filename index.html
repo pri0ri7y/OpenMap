@@ -42,11 +42,6 @@
     <link href="./css/layercontrol.css" rel="stylesheet" />
     <link href="./css/jarvis.css" rel="stylesheet">
   
-    
-    <style></style>
-  
-  
-  
   </head>
 
   <body>
@@ -59,11 +54,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" style="font-family: cursive;"><img class="navbar-brand-image" src="./images/openmaps.png">OpenMaps</a>
+          <a class="navbar-brand" style="font-family: cursive;"><img class="navbar-brand-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADZ0lEQVRYhcWXT2hdRRTGf3N5PGIJEkQkiyhSQWLIQrqoEkJaioiECBJEVIpICaWEIG6EICKEUkopJYuiRay4FNGVXYiUiqDiH9AiUoq2Ki1W0S4ERWtq018Xd/JyGe68e58IfnBJmDnnfN/MmTlnHvzPCG0N1THgEeAu4BpwFbgSp28Civj9ALwTQvjpPxGgzgAPA5di4O8b7LdGobcDJ0II7/8rAeodwHPAh8DbIYTr6s3ARPzuAe4GRoEu8C2wGkL4NPoXwDywAzgcQrjYtNgq+Zx6WB2ujHXUZ9TT5rGuriaxtqgH1dm25E+ri8nYkrrWhzjFS+p4EmNB3Z3yFYnRo0AnhPByYtdppX4Ti8BZ9UBMGyGE40BXnc+tfELdn4uoDqsz6or62wC78WoSZ0WdSIMX6itqt83yYpraYl3dVfHtqq9ZHtLe4GNVowbyGfWXAQSoXlJHKjGm1T2weQZ2NN3XCn4FjgPnW9heA/4GbgF66Q0hfATcp4J6r7rQkryHmLZZ9bPMqv9QR6Ndoab+T6pTqC+oow1kqGPqTnW6RshyJD1bEXCqIeaIuoJJ4YiTw5YFZF7dZnmdNvB6JuBsFHpQPaU+1E9A9DmCulIz0VHfi4Tr8e8F9XHLEt0vaBNv1fZQkZkrgO2V/wF+BC7GL4sQWjdYgKsFMFQzsQsYScamgI+BfYMwpIhpGlWfB0Y7lFclxV9xvK4EH1O/DCF8PgDpDPAEMAfcRtk9Ac6jHsg4TalnMlfsO3W31WrWX8DXmTgnUV+00nYTx676lHolE2BvSwHjlcNcxSEs73Zth4r5+iJDrnq6gXhjgZcz/js3CsnRPkEW+wgwt3sV/1znvKAWRQjhOmXvnszE2NIn/geUB7Yfcod1NXL3cn3MmiKiPlCj/k/1hHpnAzmW1TTFN+pQajitLtUEGEuIl42vnDawLOVV/KNO5YyX1Lma8XF1j20flpt+t6onEwHPNjktx20bqUtJxmdruqXqkJv9ZAO1Nacu4ILl3b+sHlWzj1L1QcsX0ifqG+qb6lvqzxXitbr0NonYpn4VA7xr+Q68X520fMBOWj5mmh6oZ9TtzYz1IjrqXvVcA0kdzqn7+u3eIEIKy1tyxLIy1v1IWbP81bRqWV1b9YmBmndVEJBexd97hWUA3ACNAF4TY7alJwAAAABJRU5ErkJggg==">
+               OpenMaps</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">       
-                <li><a href="#" onclick="console.log('trip.js routine')" > Feel like chatting ? </a></li>
+                <li><a href="#" id="helpdijit"> Help </a></li>
           </ul>		  
         </div> 
       </div>
@@ -110,6 +106,8 @@
             <!-- basemap section end -->
             <div id="toolDisplayDiv">                  
             </div>
+            
+            <div id="mapinfodijit"> <!-- mapinfo widget -->
             
             </div> <!-- map div ends here -->   
               

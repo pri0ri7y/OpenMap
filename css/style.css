@@ -230,8 +230,18 @@ top: 1px;
     left: 0.5em; 
 }
 
-/******** Geolocate Widget  ***********/	
+/******** Mapinfo Widget  ***********/	
  
+#mapinfodijit {
+  position: absolute;
+  z-index: 5;
+  bottom: 2em;
+  left: 4.5em;
+  color: white;
+}
+
+
+
 
 
 /*********** SLIDER & SAFE MODE ON/OFF ********************/
