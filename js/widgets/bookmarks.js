@@ -11,8 +11,8 @@ define([
     'dojox/grid/DataGrid',
     'dojo/data/ItemFileWriteStore',
     'dijit/form/Button',
-    'dojo/text!./bookmarks/templates/bookmarks.html',
-    'tools/xstyle/css!./bookmarks/css/bookmarks.css'
+    'dojo/text!templatesPath/bookmarks/bookmarks.html',
+    'library/xstyle/css!templatesPath/bookmarks/css/bookmarks.css'
 ], function (declare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, json, array, cookie, lang, domConstruct, DataGrid, ItemFileWriteStore, Button, template) {
 
     return declare([_WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin], {
