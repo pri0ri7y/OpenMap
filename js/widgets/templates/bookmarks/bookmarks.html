@@ -1,5 +1,5 @@
 
-<div class="modal fade" role="dialog">
+<div class="modal fade BookmarksWidget" role="dialog">
     <div class="modal-dialog">
         <!-- Modal content-->
         <div class="modal-content"> 
@@ -11,9 +11,21 @@
                </button> 
                <h4 class="modal-title">Print tool</h4></div>
             <div class="modal-body" id="w6ModalArea">
-
-
-
+                    <ul class="list-unstyled outerList"> 
+                        <li>
+                            <ul class="list-inline list-unstyled">
+                                <li>
+                                     <div id="bookmarkList" data-dojo-attach-point="bookmarkList" class="list"></div>
+                                </li>  
+                                <li>
+                                     <input class="bookmark" id="bookmark" data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="bookmark"/>
+                                </li>  
+                                <li>
+                                    <button data-dojo-type="dijit/form/Button" label="Add" data-dojo-attach-event="onClick:addBookmark" data-dojo-props="iconClass:'addIcon',showLabel:false"/>
+                                </li>  
+                            </ul>
+                        </li>
+                    </ul> 
             </div> 
         </div>
 
@@ -22,9 +34,9 @@
 
 
 
-<div class="BookmarksWidget">
-    <div id="bookmarkList" data-dojo-attach-point="bookmarkList" class="list"></div>
-    <input class="bookmark" id="bookmark" data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="bookmark"/>
-    <button data-dojo-type="dijit/form/Button" label="Add" data-dojo-attach-event="onClick:addBookmark" data-dojo-props="iconClass:'addIcon',showLabel:false"/>
-</div>
+ 
+    
+    
+   
+ 
 
