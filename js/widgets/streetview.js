@@ -328,7 +328,7 @@ define([
                         anchorXUnits: 'fraction',
                         anchorXUnits: 'fraction',
                         opacity: 1,
-                        src: 'js/gis/dijit/StreetView/images/blueArrow.png',
+                        src: 'js/widgets/templates/streetview/images/blueArrow.png',
                         rotation: headingRadians
                     }))
                 })
