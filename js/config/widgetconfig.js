@@ -7,13 +7,13 @@
         "js/widgets/layercontrolbase.js",
         "js/widgets/geolocate.js",
         "js/widgets/print.js",
-        "js/widgets/itool.js",
+        "js/widgets/identify.js",
         "js/widgets/bookmarks.js",
         "js/widgets/mapinfo.js", 
         "js/widgets/speechcommand.js"
 
        ],
-   function (declare, lang, domConstruct, measurement, draw, overviewmap, layercontrolbase, geolocate, print, itool, bookmarks, mapinfo,jarvis) {
+   function (declare, lang, domConstruct, measurement, draw, overviewmap, layercontrolbase, geolocate, print, identify, bookmarks, mapinfo,jarvis) {
     return declare(null, {
         constructor: function (options) {
             lang.mixin(this, options);
@@ -36,7 +36,7 @@
                     map: this.map,                   
                     useVoiceRecognition: this.useVoiceRecognition
                 }, '_w1'));
-            } // end if
+            } // end if - measurement
 
             if (this.addToApp.includes('w2')) {
 
@@ -51,14 +51,14 @@
                     map: this.map,                  
                     useVoiceRecognition: this.useVoiceRecognition
                 }, '_w2'));
-            } // end if
+            } // end if- draw
 
             if (this.addToApp.includes('w3')) {                  
                 //create and push the widget
                 this.addedWidgets.push(new overviewmap({
                     map: this.map                   
                 }));
-            } // end if
+            } // end if - overviewmap
 
             if (this.addToApp.includes('w4')) {
 
@@ -74,7 +74,7 @@
                     useVoiceRecognition: this.useVoiceRecognition,
                     layers: this.layersObject.layers
                 }, '_w4'));
-            } // end if
+            } // end if - layercontrolbase
 
             if (this.addToApp.includes('w5')) {
 
@@ -95,7 +95,7 @@
                         enableHighAccuracy: true
                     }
                 }, 'geolocate_widget'));
-            } // end if
+            } // end if - geolocate
 
             if (this.addToApp.includes('w6')) {
 
@@ -110,14 +110,29 @@
                     map: this.map,                    
                     useVoiceRecognition: this.useVoiceRecognition                  
                 }, '_w6'));
-            } // end if
+            } // end if - print
 
             if (this.addToApp.includes('w7')) {
               
-                this.addedWidgets.push(new itool({
-                    map: this.map                 
+                this.addedWidgets.push(new identify({
+                    divToBind: this.divToBind,
+                    displayDiv: this.displayDiv,
+                    _id: 'iw7',
+                    map: this.map,
+                    basemaps: this.basemaps, //return basemap layers
+                    layers: this.layersObject.layers, //return map layers (no basemap layers)
+                    mapClickMode: 'identify',
+                    configProxy: false,
+                
+                    identifies: {
+                      /**  Example type
+                        USA: {  //layer tittle
+                            0: ['admin','pop_est','lastcensus','economy'] //fields to be displayed
+                        } 
+                       */
+                    }
                 }));
-            } // end if
+            } // end if- identify
 
             if (this.addToApp.includes('w8')) {
                 //create dynamically a node to attach the widget 
@@ -138,14 +153,14 @@
                     ]
                 },'_w8'));
               
-            } // end if
+            } // end if - bookmarks
   
             if (this.addToApp.includes('w9')) {                
                   this.addedWidgets.push(new mapinfo({
                       map: this.map,
                       mode: 'EPSG:4326' //EPSG:4326, EPSG:3857, EPSG:2100           
                   },'mapinfodijit'));
-            } // end if
+            } // end if - mapinfo
  
 
 

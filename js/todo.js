@@ -16,10 +16,11 @@
  *          - layercontrol -- 
  *          - Mapinfo --
  *          - Overviewmap --
+ *          - Identify --
+ *          - Street View
  * 
  *          - Help 
- *          - Identify
- *          - Street View
+
  *          - find (Search Attribute table)
  *          - Geocoder
  *          - ThreeDButton - cesium integration

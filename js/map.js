@@ -5,14 +5,15 @@ loads all the necessary modules and instantiates all major classes/widgets.
 
 **/
 require(["dojo/_base/lang",
+         "dojo/topic",
          "js/config/bootstrapconfig.js",
          "js/config/mapconfig.js",
          "js/config/layerconfig.js",
          "js/config/widgetconfig.js",
          "dojo/text!baseconfig/basemapconfig.json",
-         "dojo/text!baseconfig/operationallayers.json",
+         "dojo/text!baseconfig/operationallayers.json",         
          "dojo/domReady!"],
- function (lang, bootstrapconfig, mapconfig, layerconfig, widgetconfig, basemapconfig, operationallayers) {
+ function (lang, topic, bootstrapconfig, mapconfig, layerconfig, widgetconfig, basemapconfig, operationallayers) {
 
      /**                                 **\
      * Bootstrap events configuration area *
@@ -52,15 +53,16 @@ require(["dojo/_base/lang",
 
      //ol3 map instance.     
      app.mapObj = {};
-     app.mapObj = new ol.Map(new mapconfig({
-         mapDiv: 'mapDiv',
-         zoom: 4, 
-         lng: -100,  
-         lt:  39,  
-         extnt: [-13884991, 2870341, -7455066, 6338219],
-         basemapConfig: JSON.parse(basemapconfig),
-         bmapDiv: 'bmapDiv'
-     }).mConfig);
+     this.mapconf = new mapconfig({
+        mapDiv: 'mapDiv',
+        zoom: 4, 
+        lng: -100,  
+        lt:  39,  
+        extnt: [-13884991, 2870341, -7455066, 6338219],
+        basemapConfig: JSON.parse(basemapconfig),
+        bmapDiv: 'bmapDiv'
+    });
+     app.mapObj = new ol.Map(this.mapconf.mConfig);
 
 
      /**
@@ -161,9 +163,28 @@ require(["dojo/_base/lang",
          map: app.mapObj,
          divToBind: 'toolDiv',
          displayDiv: 'toolDisplayDiv',
-         layersObject: app.lyrObj,         
+         layersObject: app.lyrObj,        
+         basemaps:  this.mapconf.data,
          useVoiceRecognition: true
      });
+
+
+
+       this.mapClickMode = {
+            current: 'identify',
+            defaultMode: 'identify'
+       };
+
+       // set the current mapClickMode
+       topic.subscribe('mapClickMode/setCurrent', lang.hitch(this, function (mode) {
+            this.mapClickMode.current = mode;
+            topic.publish('mapClickMode/currentSet', mode);
+       }));
+
+         // set the current mapClickMode to the default mode
+        topic.subscribe('mapClickMode/setDefault', lang.hitch(this, function () {
+           topic.publish('mapClickMode/setCurrent', this.mapClickMode.defaultMode);
+        }));
 
 
 });
