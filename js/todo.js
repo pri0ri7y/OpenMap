@@ -17,14 +17,14 @@
  *          - Mapinfo --
  *          - Overviewmap --
  *          - Identify --
- *          - Street View
- * 
+ *          - Street View --
+ *          - Print - using Mapfish (Also, have a complete documentation on how to use that mapfish plugin in detail)
  *          - Help 
 
  *          - find (Search Attribute table)
  *          - Geocoder
  *          - ThreeDButton - cesium integration
- *          - Print - using Mapfish (Also, have a complete documentation on how to use that mapfish plugin in detail)
+
  *   6. push all the widgets as a separate module in git 
  *   7. keep all local assets in asset folder
  * 

@@ -1,6 +1,7 @@
 ﻿define(["dojo/_base/declare",        
         "dojo/_base/lang",
         "dojo/dom-construct",
+        'dijit/Menu',
         "js/widgets/measurement.js",
         "js/widgets/draw.js",
         "js/widgets/overviewmap.js",
@@ -10,10 +11,11 @@
         "js/widgets/identify.js",
         "js/widgets/bookmarks.js",
         "js/widgets/mapinfo.js", 
+        "js/widgets/streetview.js", 
         "js/widgets/speechcommand.js"
 
        ],
-   function (declare, lang, domConstruct, measurement, draw, overviewmap, layercontrolbase, geolocate, print, identify, bookmarks, mapinfo,jarvis) {
+   function (declare, lang, domConstruct,Menu, measurement, draw, overviewmap, layercontrolbase, geolocate, print, identify, bookmarks, mapinfo, streetview, jarvis) {
     return declare(null, {
         constructor: function (options) {
             lang.mixin(this, options);
@@ -161,7 +163,27 @@
                       mode: 'EPSG:4326' //EPSG:4326, EPSG:3857, EPSG:2100           
                   },'mapinfodijit'));
             } // end if - mapinfo
- 
+            
+            if (this.addToApp.includes('w10')) {    
+                //create dynamically a node to attach the widget 
+                domConstruct.create("div", { id: "_w10" }, "toolDisplayDiv");
+                
+                this.addedWidgets.push(new streetview({
+                    divToBind: this.divToBind,
+                    displayDiv: this.displayDiv,
+                    _id: 'iw10',
+                    map: this.map,
+                    mapClickMode: 'identify' ,
+                    mapRightClickMenu: new Menu({
+                        targetNodeIds: ['mapDiv']   //set the map div as the attach point                      
+                    }).startup()          
+                },'_w10'));
+          } // end if - streetview
+
+
+
+
+
 
 
             if (this.addToApp.includes('jarvis')) {

@@ -1,0 +1,36 @@
+<div class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content"> 
+           <div class="modal-header"> 
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <div class="flipthis-wrapper">
+                     <span aria-hidden="true">&times;</span>
+                   </div>
+               </button> 
+               <h4 class="modal-title">streetview</h4></div>
+            <div class="modal-body" id="w6ModalArea">                 
+                <div>
+                    <div data-dojo-attach-point="panoNode" class="streetViewNode">
+                        <span data-dojo-attach-point="noStreetViewResults" class="noStreetViewResults">
+                            <div class="noStreetViewResultsText">
+                                ${i18n.messages.notAvailable}
+                            </div>
+                        </span>
+                    </div>
+                    <div data-dojo-attach-point="buttonActionBar" class="buttonActionBar">
+                        <img data-dojo-attach-point="loadingStreetView" class="loadingStreetView">
+                        <button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'fa fa-location-arrow fa-fw',showLabel:true" data-dojo-attach-event="onClick:placePoint">
+                            ${i18n.activateButton.label}
+                        </button>
+                        <button data-dojo-attach-event="onClick:disablestreetview"> disable streetview </button>
+                         
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    </div>
+</div>
+
+
