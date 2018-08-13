@@ -1,7 +1,7 @@
 define([
     'dojo/_base/declare',
     'dijit/_WidgetBase',
-    'library/dijit/_OCMVMixin',
+    'library/dijit/ProxyMixin',
     'dijit/_TemplatedMixin',
     'dijit/_WidgetsInTemplateMixin',
     'dojo/_base/lang',
