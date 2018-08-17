@@ -12,17 +12,18 @@
         "js/widgets/bookmarks.js",
         "js/widgets/mapinfo.js", 
         "js/widgets/streetview.js", 
+        "js/widgets/find.js", 
         "js/widgets/speechcommand.js"
 
        ],
-   function (declare, lang, domConstruct,Menu, measurement, draw, overviewmap, layercontrolbase, geolocate, print, identify, bookmarks, mapinfo, streetview, jarvis) {
+   function (declare, lang, domConstruct,Menu, measurement, draw, overviewmap, layercontrolbase, geolocate, print, identify, bookmarks, mapinfo, streetview, find, jarvis) {
     return declare(null, {
         constructor: function (options) {
             lang.mixin(this, options);
             this.addedWidgets = [];
-            this.addWidgets();
-            
+            this.addWidgets();            
         },       
+
         addWidgets: function () {
                  
             if (this.addToApp.includes('w1')) {
@@ -178,11 +179,65 @@
                         targetNodeIds: ['mapDiv']   //set the map div as the attach point                      
                     }).startup()          
                 },'_w10'));
-          } // end if - streetview
+            } // end if - streetview
+
+            if(this.addToApp.includes('w11')) {
+                //create dynamically a node to attach the widget 
+                domConstruct.create("div", { id: "_w11" }, "toolDisplayDiv");
+               
+                this.addedWidgets.push(new find({
+                    divToBind: this.divToBind,
+                    displayDiv: this.displayDiv,
+                    _id: 'iw11',
+                    map: this.map,
+                    basemaps: this.basemaps, //return basemap layers
+                    layers: this.layersObject.layers, //return map layers (no basemap layers)
+                    mapClickMode: 'identify' ,              
+                    queries: [
+                        {
+                            description: 'Find A Public Safety Location By Name',
+                            url: 'http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/PublicSafety/PublicSafetyOperationalLayers/MapServer',
+                            layerIds: [1, 2, 3, 4, 5, 6, 7],
+                            searchFields: ['FDNAME, PDNAME', 'NAME', 'RESNAME'],
+                            minChars: 2
+                        },
+                        {
+                            description: 'Find Incident By Code/Description',
+                            url: 'http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/PublicSafety/PublicSafetyOperationalLayers/MapServer',
+                            layerIds: [15, 17, 18],
+                            searchFields: ['FCODE', 'DESCRIPTION'],
+                            minChars: 4
+                        }
+                    ]                   
+                    
+                },'_w11'));
 
 
+                    /** 
+                                    map: true, //return map
+                                    basemaps: true, //return basemap layers
+                                    layers: true, //return map layers (no basemap layers)
+                                    mapClickMode: true,
+                                    
+                                    queries: [
+                                        {
+                                            description: 'Find A Public Safety Location By Name',
+                                            url: 'http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/PublicSafety/PublicSafetyOperationalLayers/MapServer',
+                                            layerIds: [1, 2, 3, 4, 5, 6, 7],
+                                            searchFields: ['FDNAME, PDNAME', 'NAME', 'RESNAME'],
+                                            minChars: 2
+                                        },
+                                        {
+                                            description: 'Find Incident By Code/Description',
+                                            url: 'http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/PublicSafety/PublicSafetyOperationalLayers/MapServer',
+                                            layerIds: [15, 17, 18],
+                                            searchFields: ['FCODE', 'DESCRIPTION'],
+                                            minChars: 4
+                                        }
+                                    ]
 
-
+                    */
+            }// end if - find
 
 
 

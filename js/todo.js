@@ -18,7 +18,7 @@
  *          - Overviewmap --
  *          - Identify --
  *          - Street View --
- *          - Print - using Mapfish (Also, have a complete documentation on how to use that mapfish plugin in detail)
+ *          - Print - using Mapfish (Also, have a complete documentation on how to use that mapfish plugin in detail) --
  *          - Help 
  *          - find (Search Attribute table)
  *          - Geocoder

@@ -1,0 +1,146 @@
+.OpenMap_layercontrols_base .vectorLayerContainer {}
+
+.OpenMap_layercontrols_base .vectorLabelContainer {
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.OpenMap_layercontrols_base .overlayLayerContainer {}
+
+.OpenMap_layercontrols_base .overlayLabelContainer {
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.OpenMap_layercontrols_base .layerControl {
+    padding-bottom: 6px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.OpenMap_layercontrols_base .layerControlExpand {
+    border-bottom: solid 1px #DDD;
+}
+
+.OpenMap_layercontrols_base .layerControlTable {
+    width: 100%;
+}
+
+.OpenMap_layercontrols_base .layerControlTable tr {
+    vertical-align: middle;
+}
+
+.OpenMap_layercontrols_base .layerControlTable td {
+    padding: 0;
+}
+
+.OpenMap_layercontrols_base .layerControlTableExpand {
+    cursor: pointer;
+    width: 18px;
+    height: 15px;
+    line-height: 15px;
+}
+
+.OpenMap_layercontrols_base .layerControlTableCheck,
+.OpenMap_layercontrols_base .layerControlTableMenu {
+    cursor: pointer;
+    width: 19px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.OpenMap_layercontrols_base .layerControlTableLabel {
+    font-size: 15px;
+    height: 16px;
+    line-height: 16px;
+    cursor: default;
+}
+
+.OpenMap_layercontrols_base .layerControlTableUpdate {
+    width: 21px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.OpenMap_layercontrols_base .layerControlIndent {
+    padding-left: 22px;
+}
+
+.OpenMap_layercontrols_base .layerControlIcon {
+    font-size: 17px;
+}
+
+.OpenMap_layercontrols_base .layerControlUpdateIcon {
+    font-size: 12px;
+}
+
+.OpenMap_layercontrols_base .layerControlMenuIcon {
+    font-size: 15px;
+    color: #666;
+}
+
+.OpenMap_layercontrols_base .layerControlMenuIcon:hover {
+    color: #111;
+}
+
+.OpenMap_layercontrols_base .layerControlCheckIconOutScale {
+    color: #BBB;
+}
+
+/* not in use - retain for links */
+.OpenMap_layercontrols_base .layerControlClick {
+    cursor: pointer;
+    color: #1f78af;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.OpenMap_layercontrols_base .layerControlClick:hover {
+    text-decoration: underline;
+}
+
+.OpenMap_layercontrols_base .layerControlLegendTable tr {
+    vertical-align: middle;
+}
+
+.OpenMap_layercontrols_base .layerControlLegendImage > img {
+    border: none;
+    padding: 0;
+}
+
+.OpenMap_layercontrols_base .layerControlLegendLabel {
+    padding: 0 0 0 4px;
+}
+
+/* temp esri/Legend overrides */
+.OpenMap_layercontrols_base .esriLegendService td {
+    padding: 0;
+}
+
+.OpenMap_layercontrols_base .esriLegendGroupLayer, .OpenMap_layercontrols_base .esriLegendLayerLabel {
+    padding: 0;
+}
+
+.OpenMap_layercontrols_base .esriLegendServiceLabel {
+    display: none;
+}
+
+#closeDiv {
+    position: absolute;
+    width: 20px;
+    height:18px;
+    top: 0px;
+    left: 278px;
+    cursor: pointer;
+    z-index:220;
+    background-image: url('../images/close.png');
+    background-repeat: no-repeat;
+}

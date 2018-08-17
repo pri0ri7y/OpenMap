@@ -159,7 +159,7 @@ require(["dojo/_base/lang",
     { alert('Only chrome Version 60+ is supported. Contact MetroBIM team for other details'); }
    
      app.widgetObj = new widgetconfig({
-         addToApp: ['w1', 'w2', 'w3', 'w4', 'w5', 'w6','w7', 'w8', 'w9', 'w10', 'jarvis'],
+         addToApp: ['w1', 'w2', 'w3', 'w4', 'w5', 'w6','w7', 'w8', 'w9', 'w10', 'w11', 'jarvis'],
          map: app.mapObj,
          divToBind: 'toolDiv',
          displayDiv: 'toolDisplayDiv',
